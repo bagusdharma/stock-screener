@@ -1,0 +1,12 @@
+# v22+ wajib: google-genai butuh httpx>=0.28, PTB 20.7 tidak kompatibel httpx 0.28
+python-telegram-bot~=22.8
+yfinance
+pandas
+numpy
+requests
+python-dotenv
+apscheduler
+openpyxl
+google-genai
+fastapi
+uvicorn

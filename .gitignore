@@ -1,0 +1,24 @@
+.env
+cache/
+logs/
+__pycache__/
+*.pyc
+*.csv
+archive/
+*.pkl
+bot_data.pkl
+*.log
+.venv/
+venv/
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+# Dokumen internal (repo PUBLIC) — semua .md di-ignore KECUALI:
+#   /README.md   — halaman depan repo
+#   /RULE_BOT.md — dibaca runtime: src/bot/conversation.py & frontend/lib/gemini.ts
+*.md
+!/README.md
+!/RULE_BOT.md
+# CATATAN: results_cache.json, screen_status.json, idx_universe.json,
+# merged_snapshot.json SENGAJA di-commit — ditulis GitHub Actions,
+# dibaca Vercel & bot Render via raw.githubusercontent.com

@@ -1,0 +1,53 @@
+# Screening IDX 3x sehari via GitHub Actions (pengganti scheduler di VM).
+# Hasil di-commit ke repo → Vercel & bot Render baca via raw.githubusercontent.
+# CATATAN: repo harus PUBLIC agar menit Actions unlimited (private: 2000 mnt/bln,
+# tidak cukup untuk 3x/hari; kalau mau private, kurangi jadi 1x/hari sore).
+
+name: Screening IDX
+
+on:
+  schedule:
+    # UTC = WIB - 7 → 08:45, 13:00, 16:15 WIB (Sen-Jum)
+    - cron: "45 1 * * 1-5"
+    - cron: "0 6 * * 1-5"
+    - cron: "15 9 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screening
+  cancel-in-progress: false
+
+jobs:
+  screening:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      # settings.py wajib BOT_TOKEN; screening tidak memakainya → dummy
+      BOT_TOKEN: "dummy-not-used-by-screening"
+      CHAT_ID: "0"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run screening
+        run: python scripts/run_screening.py
+
+      - name: Commit hasil
+        run: |
+          git config user.name "screening-bot"
+          git config user.email "actions@github.com"
+          git add results_cache.json screen_status.json idx_universe.json merged_snapshot.json valid_tickers.txt || true
+          git diff --cached --quiet && echo "Tidak ada perubahan" && exit 0
+          git commit -m "screening: update hasil $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin ${GITHUB_REF_NAME} || true
+          git push

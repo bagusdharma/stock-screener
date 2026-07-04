@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  /* Token semantik — warm bright (referensi estetika Lovable):
+     krem hangat, kartu putih, aksen oranye/koral, bayangan lembut */
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --surface-2: #fdf6ec;
+  --border: #ede4d7;
+  --border-strong: #ddd0bc;
+  --accent: #ea580c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background:
+    radial-gradient(900px 420px at 15% -10%, rgba(251, 146, 60, 0.14), transparent 60%),
+    radial-gradient(800px 400px at 95% 0%, rgba(244, 114, 182, 0.08), transparent 55%),
+    var(--bg);
+}
+
+/* Angka data selalu tabular — tidak goyang saat berubah */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Bayangan kartu hangat & lembut (bukan abu-abu dingin) */
+.card-shadow {
+  box-shadow:
+    0 1px 2px rgba(120, 84, 40, 0.05),
+    0 4px 14px -6px rgba(120, 84, 40, 0.08);
+}
+
+::selection {
+  background: rgba(251, 146, 60, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
