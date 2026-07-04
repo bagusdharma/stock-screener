@@ -42,7 +42,11 @@ app.add_middleware(
 )
 
 
-@app.get("/health")
+# GET + HEAD dan tersedia juga di root "/": monitor uptime (UptimeRobot dkk)
+# ada yang memakai HEAD atau di-set tanpa path — semua harus dijawab 200,
+# kalau tidak service dianggap down & keep-alive gagal (Render tidur).
+@app.api_route("/health", methods=["GET", "HEAD"])
+@app.api_route("/", methods=["GET", "HEAD"])
 def health():
     return {"status": "ok"}
 
