@@ -9,6 +9,8 @@ use IDX value and log the conflict to cache/conflict_log.jsonl.
 
 import json
 import logging
+import os
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
@@ -26,6 +28,15 @@ _conflict_lock = Lock()
 _shutdown_event = Event()
 _active_pool: ThreadPoolExecutor | None = None
 _pool_lock = Lock()
+
+# ── Knob lingkungan utk runner IP-shared (GitHub Actions) ──────────
+# FETCH_MAX_WORKERS  ticker paralel (default 4; GA: 1 — burst memicu 429 Yahoo)
+# FETCH_DELAY        jeda detik antar ticker (default 0; GA: 2)
+# DISABLE_IDX_API=1  lewati IDX API total (GA: Cloudflare IDX blok IP datacenter,
+#                    HTTP 403 — field khas IDX diisi snapshot-fill)
+_FETCH_WORKERS = max(1, int(os.getenv("FETCH_MAX_WORKERS", "4")))
+_FETCH_DELAY = max(0.0, float(os.getenv("FETCH_DELAY", "0")))
+_DISABLE_IDX_API = os.getenv("DISABLE_IDX_API", "0") == "1"
 
 # Fields where IDX XLSX and Yahoo Finance overlap and can conflict
 _OVERLAP_FIELDS = ["pe", "pbv", "der", "roe", "net_profit_margin", "market_cap"]
@@ -191,6 +202,8 @@ def _get_idx_xlsx_row(ticker: str) -> dict | None:
 
 def _get_idx_api(ticker: str) -> dict | None:
     """Get price/profile from IDX API. Returns dict or None."""
+    if _DISABLE_IDX_API:
+        return None
     try:
         from src.data.fetcher_idx_api import get_idx_price_profile
         return get_idx_price_profile(ticker)
@@ -515,6 +528,11 @@ def get_all_merged(tickers: list[str],
 
     global _active_pool
 
+    if _FETCH_WORKERS != 4 or _FETCH_DELAY or _DISABLE_IDX_API:
+        log.info("Mode throttle: workers=%d delay=%.1fs idx_api=%s",
+                 _FETCH_WORKERS, _FETCH_DELAY,
+                 "OFF" if _DISABLE_IDX_API else "on")
+
     _shutdown_event.clear()
     results: dict[str, dict] = {}
     total = len(tickers)
@@ -534,9 +552,11 @@ def get_all_merged(tickers: list[str],
         if _shutdown_event.is_set():
             raise InterruptedError("shutdown")
         merged = _merge_one(ticker, None, idx_api, yf)
+        if _FETCH_DELAY:
+            time.sleep(_FETCH_DELAY)
         return ticker, merged
 
-    pool = ThreadPoolExecutor(max_workers=4)
+    pool = ThreadPoolExecutor(max_workers=_FETCH_WORKERS)
     with _pool_lock:
         _active_pool = pool
 

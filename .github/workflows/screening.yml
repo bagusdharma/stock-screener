@@ -23,11 +23,16 @@ concurrency:
 jobs:
   screening:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     env:
       # settings.py wajib BOT_TOKEN; screening tidak memakainya → dummy
       BOT_TOKEN: "dummy-not-used-by-screening"
       CHAT_ID: "0"
+      # Runner GA = IP shared: Yahoo 429 kalau paralel (probe: sequential
+      # + jeda 2s = 10/10 OK), IDX API diblok Cloudflare (HTTP 403).
+      FETCH_MAX_WORKERS: "1"
+      FETCH_DELAY: "2"
+      DISABLE_IDX_API: "1"
     steps:
       - uses: actions/checkout@v4
 

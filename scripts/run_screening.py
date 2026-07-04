@@ -71,6 +71,20 @@ def main() -> int:
     try:
         all_merged = get_all_merged(tickers, force_refresh=True,
                                     on_progress=_prog)
+
+        # Guard anti-data-sampah: kalau mayoritas ticker tanpa harga
+        # (Yahoo rate limit / sumber down), JANGAN timpa hasil lama —
+        # exit 1 → step commit di workflow tidak jalan.
+        with_price = sum(1 for m in all_merged.values() if m.get("price"))
+        coverage = with_price / max(len(all_merged), 1)
+        if coverage < 0.7:
+            raise RuntimeError(
+                f"Harga hanya ada utk {with_price}/{len(all_merged)} ticker "
+                f"({coverage:.0%} < 70%) — kemungkinan rate limit; "
+                "hasil TIDAK disimpan agar cache lama tetap utuh")
+        log.info("Price coverage: %d/%d (%.0f%%)",
+                 with_price, len(all_merged), coverage * 100)
+
         _save_status("running", 60, "Scoring...", logs)
         scored = score_all(all_merged)
         if not scored:
