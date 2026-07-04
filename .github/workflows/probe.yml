@@ -1,0 +1,54 @@
+# Probe TEMPORER: uji akses sumber data dari runner GitHub Actions.
+# Dipakai untuk diagnosis — hapus setelah keputusan arsitektur final.
+name: Probe Sumber Data
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install
+        run: pip install -q yfinance curl_cffi requests
+
+      - name: Probe IDX + Yahoo
+        run: |
+          python - <<'EOF'
+          import time
+
+          # --- 1. IDX API (curl_cffi browser emulation) ---
+          try:
+              from curl_cffi import requests as cf
+              r = cf.get(
+                  "https://www.idx.co.id/umbraco/Surface/StockData/GetSecuritiesData",
+                  params={"code": "", "start": 0, "length": 5, "exchangeID": "", "type": "s"},
+                  impersonate="chrome", timeout=20,
+              )
+              print(f"IDX API: HTTP {r.status_code}, body[:120]={r.text[:120]!r}")
+          except Exception as e:
+              print(f"IDX API: GAGAL — {type(e).__name__}: {e}")
+
+          # --- 2. Yahoo Finance: sequential, jeda 2 detik ---
+          import yfinance as yf
+          tickers = ["BBCA", "BBRI", "TLKM", "ASII", "BMRI",
+                     "UNVR", "ICBP", "ANTM", "PGAS", "KLBF"]
+          ok = 0
+          for i, t in enumerate(tickers, 1):
+              try:
+                  h = yf.Ticker(t + ".JK").history(period="5d")
+                  if len(h):
+                      ok += 1
+                      print(f"[{i:2d}] {t}: OK close={h['Close'].iloc[-1]:.0f}")
+                  else:
+                      print(f"[{i:2d}] {t}: KOSONG (kemungkinan diblok)")
+              except Exception as e:
+                  print(f"[{i:2d}] {t}: GAGAL — {type(e).__name__}: {str(e)[:100]}")
+              time.sleep(2)
+          print(f"HASIL YAHOO SEQUENTIAL: {ok}/{len(tickers)} sukses")
+          EOF
