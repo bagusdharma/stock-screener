@@ -4,7 +4,10 @@ import { toLite } from "@/lib/types";
 import { fmtTimestamp } from "@/lib/format";
 import { DividenList } from "@/components/DividenList";
 
-export const dynamic = "force-dynamic";
+// ISR: data berubah maks 3x/hari (GitHub Actions) — sajikan dari CDN,
+// regenerasi tiap 5 menit. force-dynamic membuat TIAP navigasi menunggu
+// SSR penuh + parse JSON 3MB = lag yang terasa di HP.
+export const revalidate = 300;
 
 export default async function DividenPage() {
   const cache = await getResults();

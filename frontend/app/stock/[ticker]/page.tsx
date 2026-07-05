@@ -19,7 +19,10 @@ import {
 } from "@/lib/format";
 import { LabelBadge, ScoreRing } from "@/components/ScoreBadge";
 
-export const dynamic = "force-dynamic";
+// ISR: data berubah maks 3x/hari (GitHub Actions) — sajikan dari CDN,
+// regenerasi tiap 5 menit. force-dynamic membuat TIAP navigasi menunggu
+// SSR penuh + parse JSON 3MB = lag yang terasa di HP.
+export const revalidate = 300;
 
 function Metric({ k, v, hi = false }: { k: string; v: string; hi?: boolean }) {
   return (
