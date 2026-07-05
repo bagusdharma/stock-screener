@@ -82,6 +82,15 @@ export default function ChatPage() {
     endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [msgs, busy]);
 
+  // Saran lanjutan: muncul lagi tiap bot selesai menjawab, minus yang
+  // sudah pernah ditanya (feedback user: dulu hilang selamanya setelah 1x klik)
+  const asked = new Set(
+    msgs.filter((m) => m.role === "user").map((m) => m.content),
+  );
+  const remaining = QUICK_PROMPTS.filter((p) => !asked.has(p));
+  const showFollowUp =
+    !busy && msgs.length > 0 && msgs[msgs.length - 1].role === "assistant";
+
   async function send(text: string) {
     const q = text.trim();
     if (!q || busy) return;
@@ -165,6 +174,28 @@ export default function ChatPage() {
         {msgs.map((m, i) => (
           <Bubble key={i} m={m} />
         ))}
+
+        {showFollowUp && (
+          <div className="pl-9">
+            <p className="mb-2 text-[11px] text-stone-500">
+              Ada pertanyaan lain? Tinggal ketik di bawah — langsung kujawab.
+              {remaining.length > 0 && " Atau coba:"}
+            </p>
+            {remaining.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {remaining.map((p) => (
+                  <button
+                    key={p}
+                    onClick={() => send(p)}
+                    className="cursor-pointer rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-1.5 text-[11px] font-medium text-stone-600 transition-all duration-200 hover:border-violet-300 hover:text-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-500 motion-safe:active:scale-95"
+                  >
+                    {p}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         {busy && (
           <div className="flex items-center gap-2 pl-9 text-xs text-stone-600">
