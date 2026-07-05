@@ -9,14 +9,22 @@ Dijalankan di MESIN YANG SAMA dengan bot Telegram (main.py), sehingga:
 Jalankan: uvicorn backend_api:app --host 0.0.0.0 --port 8000
 Env:
   ALLOWED_ORIGINS  daftar origin dipisah koma (default: * — set domain
-                   Vercel di produksi, mis. https://idx-screener.vercel.app)
+                   Vercel di produksi, mis. https://ceksaham.vercel.app)
+  CHAT_SECRET      kalau di-set: /chat WAJIB header X-Chat-Secret yang sama
+                   (dipasang di Vercel & Render — proxy /api/chat server-side,
+                   jadi secret tidak pernah terlihat browser). Kosong = terbuka.
+  CHAT_RATE_LIMIT  maks request /chat per IP per menit (default 10) —
+                   /chat membakar kuota Gemini, endpoint lain hanya baca cache.
 """
 
 from __future__ import annotations
 
 import os
+import time
+from collections import deque
+from threading import Lock
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel, Field
@@ -72,9 +80,56 @@ class ChatIn(BaseModel):
     message: str = Field(min_length=1, max_length=500)
 
 
+# ── Proteksi /chat: rate limit per-IP + shared secret ───────────────
+# /chat = satu-satunya endpoint yang membakar kuota Gemini; tanpa limit,
+# satu orang iseng bisa menghabiskan kuota harian dalam hitungan menit.
+_CHAT_SECRET = os.getenv("CHAT_SECRET", "")
+_RATE_MAX = max(1, int(os.getenv("CHAT_RATE_LIMIT", "10")))
+_RATE_WINDOW = 60.0
+_rate_hits: dict[str, deque] = {}
+_rate_lock = Lock()
+
+
+def _client_ip(request: Request) -> str:
+    # Render/Vercel di belakang proxy → IP asli di X-Forwarded-For
+    # (entri pertama). Fallback: koneksi langsung.
+    fwd = request.headers.get("x-forwarded-for", "")
+    if fwd:
+        return fwd.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
+
+
+def _check_rate(ip: str) -> float:
+    """Return 0 kalau boleh; kalau kena limit, return detik sisa tunggu."""
+    now = time.monotonic()
+    with _rate_lock:
+        hits = _rate_hits.setdefault(ip, deque())
+        while hits and now - hits[0] > _RATE_WINDOW:
+            hits.popleft()
+        if len(hits) >= _RATE_MAX:
+            return _RATE_WINDOW - (now - hits[0])
+        hits.append(now)
+        # jaga memori: buang IP yang sudah tidak aktif
+        if len(_rate_hits) > 10_000:
+            for k in [k for k, v in _rate_hits.items() if not v][:5_000]:
+                _rate_hits.pop(k, None)
+        return 0.0
+
+
 @app.post("/chat")
-async def chat(body: ChatIn):
+async def chat(body: ChatIn, request: Request):
     """Chat via otak AI yang sama dengan bot Telegram."""
+    if _CHAT_SECRET and request.headers.get("x-chat-secret") != _CHAT_SECRET:
+        raise HTTPException(status_code=401, detail="unauthorized")
+
+    retry_in = _check_rate(_client_ip(request))
+    if retry_in > 0:
+        raise HTTPException(
+            status_code=429,
+            detail="Terlalu banyak pesan — coba lagi sebentar lagi.",
+            headers={"Retry-After": str(int(retry_in) + 1)},
+        )
+
     from src.bot.conversation import get_response
 
     # user_id web (string uuid) → int stabil utk session store conversation
