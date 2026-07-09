@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T17:26:56.630847",
+  "generated_at": "2026-07-09T20:03:11.778584",
   "total": 957,
   "data": [
     {
@@ -5163,7 +5163,7 @@
       "sub_sector": "",
       "price": 1440.0,
       "harga_lot": 144000,
-      "pe": 116.978065,
+      "pe": 117.83961,
       "pbv": 26.40022,
       "roe": 24.338,
       "der": 0.33143,
@@ -5187,7 +5187,7 @@
       },
       "penalti_total": -5,
       "penalti_detail": [
-        "PER extreme (117.0x): -5"
+        "PER extreme (117.8x): -5"
       ],
       "alasan": [
         "ROE 24.3% — termasuk 6% teratas di sektornya",
@@ -5195,7 +5195,7 @@
         "Rev CAGR 3Y 15.0%",
         "MA: Downtrend",
         "MACD: Bullish Lemah",
-        "PER extreme (117.0x): -5"
+        "PER extreme (117.8x): -5"
       ],
       "data_completeness": 0.882,
       "teknikal": {
@@ -17326,7 +17326,7 @@
       "price": 168.0,
       "harga_lot": 16800,
       "pe": 8.637532,
-      "pbv": 0.27557293,
+      "pbv": 0.35824487,
       "roe": 4.2179998,
       "der": 0.30506,
       "net_profit_margin": 3.746,
@@ -29972,7 +29972,7 @@
       "pe": 8.402041,
       "pbv": 0.9186363,
       "roe": -6.033,
-      "der": 0.54543,
+      "der": 0.70024,
       "net_profit_margin": -2.6519999,
       "market_cap": 154080002048.0,
       "yield_ttm": 0.0,
@@ -34813,18 +34813,16 @@
         "D_valuasi": 0,
         "E_teknikal": 2
       },
-      "penalti_total": -25,
+      "penalti_total": -20,
       "penalti_detail": [
         "ROE negatif (-7.1%): -10",
-        "Rugi berturut-turut: -10",
-        "Revenue turun: -5"
+        "Rugi berturut-turut: -10"
       ],
       "alasan": [
         "MA: Downtrend",
         "MACD: Bullish",
         "ROE negatif (-7.1%): -10",
-        "Rugi berturut-turut: -10",
-        "Revenue turun: -5"
+        "Rugi berturut-turut: -10"
       ],
       "data_completeness": 0.706,
       "teknikal": {
