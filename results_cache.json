@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:27:47.830818",
+  "generated_at": "2026-07-10T19:57:29.078878",
   "total": 957,
   "data": [
     {
@@ -8703,7 +8703,7 @@
       "price": 342.0,
       "harga_lot": 34200,
       "pe": 8.496895,
-      "pbv": 0.87780535,
+      "pbv": 0.87582487,
       "roe": 10.256,
       "der": 15.234,
       "net_profit_margin": 7.798999500000001,
@@ -12771,7 +12771,7 @@
       "sub_sector": "",
       "price": 204.0,
       "harga_lot": 20400,
-      "pe": 14.059269,
+      "pe": 14.049586,
       "pbv": 1.9546033,
       "roe": 14.568,
       "der": 9.381,
@@ -13796,7 +13796,7 @@
       "price": 122.0,
       "harga_lot": 12200,
       "pe": 14.93268,
-      "pbv": 0.7749575,
+      "pbv": 0.7611014,
       "roe": 5.207,
       "der": 0.88312,
       "net_profit_margin": 7.733,
@@ -17158,12 +17158,12 @@
       ],
       "data_completeness": 0.882,
       "teknikal": {
-        "rsi": 72.0,
+        "rsi": 68.5,
         "macd": "Bullish",
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 0.7,
-        "mfi": 88.9,
+        "mfi": 90.8,
         "obv": "Confirm Up"
       }
     },
@@ -20004,7 +20004,7 @@
       "price": 625.0,
       "harga_lot": 62500,
       "pe": 46.5376,
-      "pbv": 3.3818698,
+      "pbv": 3.228556,
       "roe": 7.3309995,
       "der": 0.86331,
       "net_profit_margin": 2.5229999999999997,
@@ -21543,7 +21543,7 @@
       "sub_sector": "",
       "price": 2530.0,
       "harga_lot": 253000,
-      "pe": 17.479618,
+      "pe": 17.482035,
       "pbv": 1.1207454,
       "roe": 6.601,
       "der": 5.443,
@@ -22491,7 +22491,7 @@
       "price": 91.0,
       "harga_lot": 9100,
       "pe": 5.208631,
-      "pbv": 0.75346094,
+      "pbv": 0.7633075,
       "roe": 5.619,
       "der": 0.21792,
       "net_profit_margin": 6.033,
@@ -25908,7 +25908,7 @@
       "price": 59.0,
       "harga_lot": 5900,
       "pe": 151.28206,
-      "pbv": 0.88692456,
+      "pbv": 0.8981991,
       "roe": -0.219,
       "der": 2.9837900000000004,
       "net_profit_margin": 0.49500000000000005,
@@ -26818,7 +26818,7 @@
       "price": 67.0,
       "harga_lot": 6700,
       "pe": null,
-      "pbv": 0.1255027,
+      "pbv": 0.12440282,
       "roe": -3.206,
       "der": 0.20332,
       "net_profit_margin": -40.444002,
@@ -32355,24 +32355,26 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -15,
       "penalti_detail": [
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
-        "Data rendah (35%): -15"
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.412,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -33080,7 +33082,7 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 1,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -33090,29 +33092,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "Dividen 1 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -36168,7 +36173,7 @@
       "price": 16.0,
       "harga_lot": 1600,
       "pe": null,
-      "pbv": 1.8054614,
+      "pbv": 0.5549582,
       "roe": -100.0,
       "der": 56.122960000000006,
       "net_profit_margin": -52.927,
@@ -36295,26 +36300,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -36648,42 +36655,45 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": -36.00951973612949,
       "earnings_cagr_3y": null,
       "skor_total": 0,
       "skor_raw": 0,
       "label": "JUAL",
-      "sub_label": "JUAL — data tidak cukup",
+      "sub_label": "JUAL — fundamental buruk",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -30,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
         "Revenue turun: -5",
-        "Data rendah (47%): -15"
+        "Data rendah (53%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
         "Rev CAGR 3Y -36.0%",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
         "Revenue turun: -5",
-        "Data rendah (47%): -15"
+        "Data rendah (53%): -15"
       ],
-      "data_completeness": 0.471,
+      "data_completeness": 0.529,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -38325,26 +38335,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -39218,7 +39230,7 @@
       "net_profit_margin": null,
       "market_cap": null,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 1,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -39228,29 +39240,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
+        "Dividen 1 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.235,
+      "data_completeness": 0.294,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -39542,7 +39557,7 @@
       "net_profit_margin": null,
       "market_cap": 39392600064.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -39552,29 +39567,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.412,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -42658,26 +42676,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -43564,26 +43584,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -43812,7 +43834,7 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 12,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -43822,29 +43844,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 10,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "Dividen 12 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -44230,7 +44255,7 @@
       "price": 189.0,
       "harga_lot": 18900,
       "pe": null,
-      "pbv": 6.075608,
+      "pbv": 6.113735,
       "roe": -3.598,
       "der": 0.903,
       "net_profit_margin": -22.384001,
@@ -45265,7 +45290,7 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -45275,29 +45300,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.412,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -45851,7 +45879,7 @@
       "net_profit_margin": null,
       "market_cap": null,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -45861,29 +45889,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (12%): -15"
+        "Data rendah (18%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (12%): -15"
+        "Data rendah (18%): -15"
       ],
-      "data_completeness": 0.118,
+      "data_completeness": 0.176,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -46065,7 +46096,7 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -46075,29 +46106,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -46179,26 +46213,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -47081,7 +47117,7 @@
       "net_profit_margin": null,
       "market_cap": null,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 2,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -47091,29 +47127,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
+        "Dividen 2 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.176,
+      "data_completeness": 0.235,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -48310,7 +48349,7 @@
       "net_profit_margin": null,
       "market_cap": 0.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 3,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -48320,29 +48359,32 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 4,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
+        "Dividen 3 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.412,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -48372,26 +48414,28 @@
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.176,
+      "data_completeness": 0.235,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -48408,7 +48452,7 @@
       "net_profit_margin": null,
       "market_cap": null,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 5,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": 20.661382014193364,
       "earnings_cagr_3y": null,
@@ -48418,30 +48462,33 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 6,
         "C_growth": 7,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
       "alasan": [
+        "Dividen 5 tahun berturut",
         "Rev CAGR 3Y 20.7%",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (35%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.353,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -48714,7 +48761,7 @@
       "price": 374.0,
       "harga_lot": 37400,
       "pe": 1.2677966,
-      "pbv": 0.33257186,
+      "pbv": 0.3362402,
       "roe": -22.069,
       "der": 2.984,
       "net_profit_margin": -14.920998999999998,
@@ -48828,7 +48875,7 @@
       "net_profit_margin": null,
       "market_cap": 23833415680.0,
       "yield_ttm": 0.0,
-      "div_streak": 0,
+      "div_streak": 1,
       "div_amount_ttm": 0.0,
       "revenue_cagr_3y": null,
       "earnings_cagr_3y": null,
@@ -48838,31 +48885,34 @@
       "sub_label": "JUAL — data tidak cukup",
       "komponen": {
         "A_kualitas": 5,
-        "B_dividen": 0,
+        "B_dividen": 2,
         "C_growth": 0,
         "D_valuasi": 0,
-        "E_teknikal": 0
+        "E_teknikal": 1
       },
       "penalti_total": -30,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
         "PER extreme (69.7x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
+        "Dividen 1 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
         "PER extreme (69.7x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.412,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
+        "rsi": 50.0,
+        "macd": "Bearish Lemah",
+        "ma": "Downtrend",
+        "vol_trend": "Tidak Likuid",
+        "momentum": 0.0,
         "mfi": null,
-        "obv": null
+        "obv": "Netral"
       }
     },
     {
@@ -48929,7 +48979,7 @@
       "price": 212.0,
       "harga_lot": 21200,
       "pe": null,
-      "pbv": 0.6091569,
+      "pbv": 0.7616393,
       "roe": -9.144,
       "der": 0.45446,
       "net_profit_margin": 0.0,
@@ -49089,7 +49139,7 @@
       "price": 970.0,
       "harga_lot": 97000,
       "pe": null,
-      "pbv": 16.345928,
+      "pbv": 16.648073,
       "roe": -2.3340001999999997,
       "der": 0.44618,
       "net_profit_margin": -1.087,
