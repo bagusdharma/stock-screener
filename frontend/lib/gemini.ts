@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { getResults } from "./data";
-import { toLite } from "./types";
+import { toLite, type ResultsCache } from "./types";
 
 /** Integrasi Gemini utk web — SATU sumber kebenaran dgn bot Telegram:
  *  - GEMINI_API_KEY dibaca dari env process ATAU ../.env (root project)
@@ -66,7 +66,16 @@ ATURAN DATA SANGAT PENTING:
 `;
 
 async function buildContext(): Promise<string> {
-  const cache = await getResults();
+  let cache: ResultsCache;
+  try {
+    cache = await getResults();
+  } catch {
+    return (
+      "Data screening sementara tidak bisa diambil (gangguan jaringan " +
+      "sesaat, BUKAN karena belum ada data). Minta user coba lagi " +
+      "beberapa menit lagi."
+    );
+  }
   if (!cache.data.length)
     return "Belum ada data screening. User perlu jalankan screening dulu.";
   const lite = cache.data.map(toLite).sort((a, b) => b.skor - a.skor);

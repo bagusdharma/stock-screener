@@ -23,17 +23,50 @@ const EMPTY_STATUS: ScreenStatus = {
 // Cache in-memory per-mtime — file 3MB+ (957 saham) jangan di-parse tiap request
 let resultsCache: { mtime: number; data: ResultsCache } | null = null;
 
-export async function getResults(): Promise<ResultsCache> {
-  if (DATA_URL) {
+// Hasil sukses terakhir dari DATA_URL (bertahan selama lambda masih warm).
+// raw.githubusercontent sesekali 429/timeout dari IP bersama Vercel — tanpa
+// fallback ini satu kegagalan fetch = halaman "Belum ada data" ter-bake ke
+// cache ISR 300 detik dan dilihat semua pengunjung.
+let lastGoodRemote: ResultsCache | null = null;
+
+const FETCH_RETRY_DELAY_MS = [0, 400, 1200];
+
+async function fetchRemoteResults(): Promise<ResultsCache> {
+  let lastErr: unknown = null;
+  for (const delay of FETCH_RETRY_DELAY_MS) {
+    if (delay) await new Promise((r) => setTimeout(r, delay));
     try {
       const res = await fetch(`${DATA_URL}/results_cache.json`, {
         next: { revalidate: 60 },
+        signal: AbortSignal.timeout(8000),
       });
-      if (!res.ok) return EMPTY_RESULTS;
-      return (await res.json()) as ResultsCache;
-    } catch {
-      return EMPTY_RESULTS;
+      if (!res.ok) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        continue;
+      }
+      const data = (await res.json()) as ResultsCache;
+      if (!Array.isArray(data.data)) {
+        lastErr = new Error("results_cache.json tanpa array data");
+        continue;
+      }
+      if (data.data.length > 0) lastGoodRemote = data;
+      return data;
+    } catch (err) {
+      lastErr = err;
     }
+  }
+  if (lastGoodRemote) return lastGoodRemote;
+  // Lempar, JANGAN return kosong: revalidasi ISR yang error membuat Next
+  // tetap menyajikan halaman lama yang masih berisi data — jauh lebih baik
+  // daripada menyajikan "Belum ada data screening" padahal data ada.
+  throw new Error(
+    `Gagal fetch results_cache.json (${FETCH_RETRY_DELAY_MS.length}x): ${lastErr}`,
+  );
+}
+
+export async function getResults(): Promise<ResultsCache> {
+  if (DATA_URL) {
+    return fetchRemoteResults();
   }
   const file = path.join(DATA_DIR, "results_cache.json");
   try {

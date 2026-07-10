@@ -207,6 +207,19 @@ SCHEDULE_SIANG = "13:00"
 SCHEDULE_SORE = "16:15"
 TIMEZONE = "Asia/Jakarta"
 
+# ── GitHub Actions Dispatch (Render → GA) ─────────────────────
+# Cron GitHub Actions itu best-effort: terbukti telat 3-4 jam atau tidak
+# fire sama sekali (run pagi sering hilang). Proses Render hidup 24/7
+# (UptimeRobot keep-alive) → jadi pemicu presisi via workflow_dispatch API.
+# Aktif hanya jika GH_DISPATCH_TOKEN di-set (PAT fine-grained, permission
+# Actions read+write pada repo). Kosong = perilaku lama (cron GA saja).
+GH_DISPATCH_TOKEN = os.getenv("GH_DISPATCH_TOKEN", "").strip()
+GH_DISPATCH_REPO = os.getenv(
+    "GH_DISPATCH_REPO", "bagusdharma/stock-screener").strip()
+GH_DISPATCH_WORKFLOW = os.getenv(
+    "GH_DISPATCH_WORKFLOW", "screening.yml").strip()
+GH_DISPATCH_REF = os.getenv("GH_DISPATCH_REF", "main").strip()
+
 IDX_IC_SECTORS: list[str] = [
     "Energy",
     "Basic Materials",

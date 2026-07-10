@@ -13,17 +13,23 @@ import json
 import logging
 import os
 import threading
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import math
 
 import pytz
+import requests
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 
 from src.config.settings import (
     BASE_DIR,
+    GH_DISPATCH_REF,
+    GH_DISPATCH_REPO,
+    GH_DISPATCH_TOKEN,
+    GH_DISPATCH_WORKFLOW,
     SCHEDULE_PAGI,
     SCHEDULE_WEEKLY_TIME,
     SCREEN_SCHEDULE,
@@ -88,6 +94,43 @@ def _save_status(status: str, progress: int, message: str) -> None:
             os.remove(tmp)
         except OSError:
             pass
+
+
+# ═══════════════════════════════════════════════════════════════
+#  GitHub Actions dispatch (Render = pemicu presisi, cron GA = fallback)
+# ═══════════════════════════════════════════════════════════════
+
+def dispatch_github_screening() -> bool:
+    """Trigger workflow screening di GitHub via workflow_dispatch API.
+
+    Dipakai saat SCREEN_SCHEDULE=off (deploy Render): cron GA sering telat
+    3-4 jam, jadi proses Render yang memicu tepat waktu. 3 percobaan dengan
+    jeda 10 detik. Returns True jika GitHub menerima dispatch (HTTP 204).
+    """
+    url = (f"https://api.github.com/repos/{GH_DISPATCH_REPO}"
+           f"/actions/workflows/{GH_DISPATCH_WORKFLOW}/dispatches")
+    headers = {
+        "Authorization": f"Bearer {GH_DISPATCH_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    for attempt in range(1, 4):
+        try:
+            resp = requests.post(url, headers=headers,
+                                 json={"ref": GH_DISPATCH_REF}, timeout=15)
+            if resp.status_code == 204:
+                log.info("GitHub dispatch OK — %s @ %s",
+                         GH_DISPATCH_WORKFLOW, GH_DISPATCH_REF)
+                return True
+            log.warning("GitHub dispatch percobaan %d: HTTP %d — %s",
+                        attempt, resp.status_code, resp.text[:200])
+        except Exception as exc:
+            log.warning("GitHub dispatch percobaan %d error: %s", attempt, exc)
+        if attempt < 3:
+            time.sleep(10)
+    log.error("GitHub dispatch GAGAL setelah 3 percobaan — "
+              "andalkan cron fallback GA")
+    return False
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -225,10 +268,38 @@ def start_scheduler() -> BackgroundScheduler:
     _scheduler = BackgroundScheduler(timezone=TIMEZONE)
 
     if SCREEN_SCHEDULE == "off":
-        # Deploy Render + GitHub Actions: penjadwalan dilakukan GA,
-        # scheduler internal tidak membuat job apa pun.
-        log.info("SCREEN_SCHEDULE=off — scheduler internal tanpa job "
-                 "(screening dikelola GitHub Actions)")
+        # Deploy Render + GitHub Actions: screening berjalan di GA.
+        # Jika GH_DISPATCH_TOKEN di-set, Render memicu workflow tepat waktu
+        # via API (cron GA best-effort — sering telat 3-4 jam / tidak fire).
+        if GH_DISPATCH_TOKEN:
+            for job_id, time_str, name in (
+                ("dispatch_pagi", SCHEDULE_PAGI, "Dispatch GA Pagi"),
+                ("dispatch_siang", SCHEDULE_SIANG, "Dispatch GA Siang"),
+                ("dispatch_sore", SCHEDULE_SORE, "Dispatch GA Sore"),
+            ):
+                h, m = _parse_time(time_str)
+                _scheduler.add_job(
+                    dispatch_github_screening,
+                    CronTrigger(
+                        hour=h,
+                        minute=m,
+                        day_of_week="mon-fri",
+                        timezone=TIMEZONE,
+                    ),
+                    id=job_id,
+                    name=name,
+                    replace_existing=True,
+                    coalesce=True,
+                    # Render bisa sibuk/restart pas jam fire — lebih baik
+                    # telat (max 1 jam) daripada tidak jalan sama sekali
+                    misfire_grace_time=3600,
+                )
+            log.info("SCREEN_SCHEDULE=off + GH_DISPATCH_TOKEN — 3 job "
+                     "dispatch GA (%s/%s/%s WIB, Sen-Jum)",
+                     SCHEDULE_PAGI, SCHEDULE_SIANG, SCHEDULE_SORE)
+        else:
+            log.info("SCREEN_SCHEDULE=off — scheduler internal tanpa job "
+                     "(screening dikelola cron GitHub Actions)")
         _scheduler.start()
         return _scheduler
 

@@ -7,11 +7,19 @@ name: Screening IDX
 
 on:
   schedule:
+    # FALLBACK saja — cron GitHub best-effort: terbukti telat 3-4 jam atau
+    # tidak fire (run pagi sering hilang). Pemicu utama: proses Render
+    # (src/scheduler/scheduler.py) via workflow_dispatch tepat waktu WIB.
     # UTC = WIB - 7 → 08:45, 13:00, 16:15 WIB (Sen-Jum)
     - cron: "45 1 * * 1-5"
     - cron: "0 6 * * 1-5"
     - cron: "15 9 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Jalankan walau data masih segar (< 90 menit)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,18 +44,56 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Anti-duplikat: Render memicu tepat waktu, lalu cron fallback yang
+      # telat 3-4 jam bisa fire tak lama setelahnya → skip kalau hasil
+      # terakhir masih < 90 menit (slot jadwal asli berjarak >= 3 jam).
+      # Guard error apapun TIDAK memblokir screening.
+      - name: Guard anti-duplikat
+        id: guard
+        env:
+          FORCE: ${{ github.event.inputs.force || 'false' }}
+        run: |
+          python3 - "$FORCE" <<'EOF'
+          import json, os, sys
+          from datetime import datetime, timedelta, timezone
+
+          force = sys.argv[1].strip().lower() == "true"
+          skip = "false"
+          try:
+              with open("results_cache.json", encoding="utf-8") as f:
+                  gen = json.load(f).get("generated_at", "")
+              ts = datetime.fromisoformat(gen)
+              wib = timezone(timedelta(hours=7))
+              if ts.tzinfo is None:  # now_wib() menulis naive WIB
+                  ts = ts.replace(tzinfo=wib)
+              age = datetime.now(wib) - ts
+              if age < timedelta(minutes=90) and not force:
+                  print(f"Data masih segar (umur {age}) — screening di-skip")
+                  skip = "true"
+              else:
+                  print(f"Umur data {age} (force={force}) — lanjut screening")
+          except Exception as exc:
+              print(f"Guard gagal ({exc}) — lanjut screening")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"skip={skip}\n")
+          EOF
+
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.10"
           cache: pip
 
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Run screening
+        if: steps.guard.outputs.skip != 'true'
         run: python scripts/run_screening.py
 
       - name: Commit hasil
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "screening-bot"
           git config user.email "actions@github.com"
