@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T17:02:54.881727",
+  "generated_at": "2026-07-20T19:46:13.829406",
   "total": 957,
   "data": [
     {
@@ -4898,7 +4898,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": 4.0,
-        "mfi": 61.1,
+        "mfi": 61.0,
         "obv": "Netral"
       }
     },
@@ -5714,7 +5714,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Lemah",
         "momentum": -7.3,
-        "mfi": 67.9,
+        "mfi": 68.4,
         "obv": "Confirm Up"
       }
     },
@@ -9210,7 +9210,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Lemah",
         "momentum": 4.3,
-        "mfi": 71.1,
+        "mfi": 71.2,
         "obv": "Netral"
       }
     },
@@ -9412,7 +9412,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": -7.6,
-        "mfi": 71.1,
+        "mfi": 71.0,
         "obv": "Netral"
       }
     },
@@ -12185,7 +12185,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 5.3,
-        "mfi": 82.7,
+        "mfi": 81.6,
         "obv": "Confirm Up"
       }
     },
@@ -15286,7 +15286,7 @@
       "price": 62.0,
       "harga_lot": 6200,
       "pe": 16.48936,
-      "pbv": 0.5103301,
+      "pbv": 0.50736916,
       "roe": 3.131,
       "der": null,
       "net_profit_margin": 27.765,
@@ -15729,7 +15729,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 20.1,
-        "mfi": 72.3,
+        "mfi": 72.1,
         "obv": "Netral"
       }
     },
@@ -16508,6 +16508,55 @@
       }
     },
     {
+      "ticker": "AISA.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": 109.0,
+      "harga_lot": 10900,
+      "pe": 15.504978,
+      "pbv": 0.87652284,
+      "roe": 5.8480002,
+      "der": 0.21045999999999998,
+      "net_profit_margin": 3.304,
+      "market_cap": 414823481344.0,
+      "yield_ttm": 0.0,
+      "div_streak": 3,
+      "div_amount_ttm": 0.0,
+      "revenue_cagr_3y": 2.1805185883802647,
+      "earnings_cagr_3y": null,
+      "skor_total": 46,
+      "skor_raw": 31,
+      "label": "JUAL",
+      "sub_label": "JUAL — skor rendah",
+      "komponen": {
+        "A_kualitas": 19,
+        "B_dividen": 4,
+        "C_growth": 3,
+        "D_valuasi": 0,
+        "E_teknikal": 5
+      },
+      "penalti_total": 0,
+      "penalti_detail": [],
+      "alasan": [
+        "ROE 5.8% — termasuk 37% teratas di sektornya",
+        "Dividen 3 tahun berturut",
+        "Rev CAGR 3Y 2.2%",
+        "MA: Di Atas MA50",
+        "MACD: Bullish"
+      ],
+      "data_completeness": 0.824,
+      "teknikal": {
+        "rsi": 59.7,
+        "macd": "Bullish",
+        "ma": "Di Atas MA50",
+        "vol_trend": "Konfirmasi",
+        "momentum": -15.5,
+        "mfi": 84.8,
+        "obv": "Netral"
+      }
+    },
+    {
       "ticker": "AMRT.JK",
       "name": "",
       "sector": "Consumer Cyclical",
@@ -17117,55 +17166,6 @@
         "vol_trend": "Akumulasi",
         "momentum": 15.6,
         "mfi": 80.4,
-        "obv": "Netral"
-      }
-    },
-    {
-      "ticker": "AISA.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 109.0,
-      "harga_lot": 10900,
-      "pe": 15.504978,
-      "pbv": 0.87652284,
-      "roe": 5.8480002,
-      "der": 0.21045999999999998,
-      "net_profit_margin": 3.304,
-      "market_cap": 414823481344.0,
-      "yield_ttm": 0.0,
-      "div_streak": 3,
-      "div_amount_ttm": 0.0,
-      "revenue_cagr_3y": 2.1805185883802647,
-      "earnings_cagr_3y": null,
-      "skor_total": 45,
-      "skor_raw": 30,
-      "label": "JUAL",
-      "sub_label": "JUAL — skor rendah",
-      "komponen": {
-        "A_kualitas": 19,
-        "B_dividen": 4,
-        "C_growth": 3,
-        "D_valuasi": 0,
-        "E_teknikal": 4
-      },
-      "penalti_total": 0,
-      "penalti_detail": [],
-      "alasan": [
-        "ROE 5.8% — termasuk 37% teratas di sektornya",
-        "Dividen 3 tahun berturut",
-        "Rev CAGR 3Y 2.2%",
-        "MA: Di Atas MA50",
-        "MACD: Bullish"
-      ],
-      "data_completeness": 0.824,
-      "teknikal": {
-        "rsi": 59.7,
-        "macd": "Bullish",
-        "ma": "Di Atas MA50",
-        "vol_trend": "Normal",
-        "momentum": -15.5,
-        "mfi": 84.5,
         "obv": "Netral"
       }
     },
@@ -18361,7 +18361,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Konfirmasi",
         "momentum": -6.7,
-        "mfi": 57.6,
+        "mfi": 57.5,
         "obv": "Netral"
       }
     },
@@ -19894,7 +19894,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -25.7,
-        "mfi": 32.6,
+        "mfi": 32.5,
         "obv": "Netral"
       }
     },
@@ -20411,7 +20411,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": -10.4,
-        "mfi": 74.7,
+        "mfi": 74.6,
         "obv": "Confirm Up"
       }
     },
@@ -21182,7 +21182,7 @@
         "ma": "Downtrend",
         "vol_trend": "Lemah",
         "momentum": -18.2,
-        "mfi": 91.7,
+        "mfi": 91.6,
         "obv": "Confirm Up"
       }
     },
@@ -21386,7 +21386,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 2.2,
-        "mfi": 83.0,
+        "mfi": 82.9,
         "obv": "Confirm Up"
       }
     },
@@ -22373,7 +22373,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -21.8,
-        "mfi": 50.3,
+        "mfi": 50.2,
         "obv": "Confirm Down"
       }
     },
@@ -29884,7 +29884,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": -15.2,
-        "mfi": 63.9,
+        "mfi": 64.7,
         "obv": "Netral"
       }
     },
@@ -30538,7 +30538,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Lemah",
         "momentum": -26.9,
-        "mfi": 42.5,
+        "mfi": 42.4,
         "obv": "Netral"
       }
     },
@@ -33374,7 +33374,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": -69.0,
-        "mfi": 46.3,
+        "mfi": 46.4,
         "obv": "Bullish Div"
       }
     },
