@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:57:06.291087",
+  "generated_at": "2026-07-27T20:17:02.896724",
   "total": 957,
   "data": [
     {
@@ -10,7 +10,7 @@
       "price": 4160.0,
       "harga_lot": 416000,
       "pe": 6.6355095,
-      "pbv": 1.2719421,
+      "pbv": 1.3629464,
       "roe": 21.968001,
       "der": null,
       "net_profit_margin": 43.262002,
@@ -213,7 +213,7 @@
       "price": 780.0,
       "harga_lot": 78000,
       "pe": 7.7984405,
-      "pbv": 1.0503918,
+      "pbv": 1.0717922,
       "roe": 15.359001,
       "der": 1.18348,
       "net_profit_margin": 32.092997000000004,
@@ -2203,7 +2203,7 @@
       "price": 406.0,
       "harga_lot": 40600,
       "pe": 5.8857636,
-      "pbv": 0.87622553,
+      "pbv": 0.8444312,
       "roe": 16.016,
       "der": 1.6298500000000002,
       "net_profit_margin": 27.906,
@@ -2852,7 +2852,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": -25.3,
-        "mfi": 58.1,
+        "mfi": 58.2,
         "obv": "Confirm Up"
       }
     },
@@ -3070,9 +3070,9 @@
       "harga_lot": 96000,
       "pe": 6.115429,
       "pbv": 0.71953285,
-      "roe": 12.149999000000001,
+      "roe": 12.149000000000001,
       "der": null,
-      "net_profit_margin": 30.099999999999998,
+      "net_profit_margin": 30.372998000000003,
       "market_cap": 7395552002048.0,
       "yield_ttm": 8.927083333333334,
       "div_streak": 7,
@@ -7261,57 +7261,6 @@
       }
     },
     {
-      "ticker": "MTEL.JK",
-      "name": "",
-      "sector": "Infrastructure",
-      "sub_sector": "",
-      "price": 450.0,
-      "harga_lot": 45000,
-      "pe": 16.666666,
-      "pbv": 1.0831994,
-      "roe": 6.328,
-      "der": 0.62596,
-      "net_profit_margin": 22.352,
-      "market_cap": 36459239178240.0,
-      "yield_ttm": 5.699044444444445,
-      "div_streak": 5,
-      "div_amount_ttm": 25.65,
-      "revenue_cagr_3y": 7.2473372187912055,
-      "earnings_cagr_3y": 5.888657728372015,
-      "skor_total": 66,
-      "skor_raw": 47,
-      "label": "JUAL",
-      "sub_label": "JUAL — skor rendah",
-      "komponen": {
-        "A_kualitas": 22,
-        "B_dividen": 13,
-        "C_growth": 10,
-        "D_valuasi": 1,
-        "E_teknikal": 1
-      },
-      "penalti_total": 0,
-      "penalti_detail": [],
-      "alasan": [
-        "ROE 6.3%",
-        "Dividen ±Rp 26/lembar setahun (yield 5.7%)",
-        "Dividen 5 tahun berturut",
-        "Rev CAGR 3Y 7.2%",
-        "PER 16.7x (median sektor 13.3x)",
-        "MA: Downtrend",
-        "MACD: Bearish"
-      ],
-      "data_completeness": 0.941,
-      "teknikal": {
-        "rsi": 38.6,
-        "macd": "Bearish",
-        "ma": "Downtrend",
-        "vol_trend": "Distribusi",
-        "momentum": -7.9,
-        "mfi": 7.4,
-        "obv": "Confirm Down"
-      }
-    },
-    {
       "ticker": "PGEO.JK",
       "name": "",
       "sector": "Energy",
@@ -7816,6 +7765,57 @@
       }
     },
     {
+      "ticker": "MTEL.JK",
+      "name": "",
+      "sector": "Infrastructure",
+      "sub_sector": "",
+      "price": 450.0,
+      "harga_lot": 45000,
+      "pe": 16.666666,
+      "pbv": 1.0831994,
+      "roe": 6.328,
+      "der": 0.62596,
+      "net_profit_margin": 22.352,
+      "market_cap": 36459239178240.0,
+      "yield_ttm": 5.699044444444445,
+      "div_streak": 5,
+      "div_amount_ttm": 25.65,
+      "revenue_cagr_3y": 7.2473372187912055,
+      "earnings_cagr_3y": 5.888657728372015,
+      "skor_total": 65,
+      "skor_raw": 46,
+      "label": "JUAL",
+      "sub_label": "JUAL — skor rendah",
+      "komponen": {
+        "A_kualitas": 22,
+        "B_dividen": 13,
+        "C_growth": 10,
+        "D_valuasi": 0,
+        "E_teknikal": 1
+      },
+      "penalti_total": 0,
+      "penalti_detail": [],
+      "alasan": [
+        "ROE 6.3%",
+        "Dividen ±Rp 26/lembar setahun (yield 5.7%)",
+        "Dividen 5 tahun berturut",
+        "Rev CAGR 3Y 7.2%",
+        "PER 16.7x (median sektor 13.3x)",
+        "MA: Downtrend",
+        "MACD: Bearish"
+      ],
+      "data_completeness": 0.941,
+      "teknikal": {
+        "rsi": 38.6,
+        "macd": "Bearish",
+        "ma": "Downtrend",
+        "vol_trend": "Distribusi",
+        "momentum": -7.9,
+        "mfi": 7.4,
+        "obv": "Confirm Down"
+      }
+    },
+    {
       "ticker": "RIGS.JK",
       "name": "",
       "sector": "Unknown",
@@ -7965,7 +7965,7 @@
         "ma": "Downtrend",
         "vol_trend": "Lemah",
         "momentum": -19.8,
-        "mfi": 69.7,
+        "mfi": 69.6,
         "obv": "Confirm Up"
       }
     },
@@ -8431,7 +8431,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Lemah",
         "momentum": -0.6,
-        "mfi": 65.6,
+        "mfi": 65.5,
         "obv": "Netral"
       }
     },
@@ -8583,7 +8583,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": 1.4,
-        "mfi": 29.6,
+        "mfi": 29.8,
         "obv": "Netral"
       }
     },
@@ -8683,7 +8683,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": -7.8,
-        "mfi": 63.3,
+        "mfi": 63.4,
         "obv": "Netral"
       }
     },
@@ -10151,9 +10151,9 @@
       "harga_lot": 33200,
       "pe": 5.59205,
       "pbv": 0.23247509,
-      "roe": 4.1290000000000004,
-      "der": 0.55398,
-      "net_profit_margin": 33.113,
+      "roe": 4.062,
+      "der": 0.59748,
+      "net_profit_margin": 36.986999999999995,
       "market_cap": 1322860806144.0,
       "yield_ttm": 15.060240963855422,
       "div_streak": 2,
@@ -11718,7 +11718,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": -5.3,
-        "mfi": 49.5,
+        "mfi": 49.4,
         "obv": "Confirm Up"
       }
     },
@@ -13364,7 +13364,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Lemah",
         "momentum": 5.4,
-        "mfi": 66.1,
+        "mfi": 66.0,
         "obv": "Confirm Up"
       }
     },
@@ -15872,7 +15872,7 @@
       "price": 590.0,
       "harga_lot": 59000,
       "pe": 31.65236,
-      "pbv": 3.6240342,
+      "pbv": 3.5400991,
       "roe": 11.465,
       "der": 7.05,
       "net_profit_margin": 8.621999599999999,
@@ -17550,9 +17550,9 @@
       "der": 2.87471,
       "net_profit_margin": 2.8800000999999997,
       "market_cap": 47505295278080.0,
-      "yield_ttm": 0.30298089171974524,
+      "yield_ttm": 0.3028125520169851,
       "div_streak": 3,
-      "div_amount_ttm": 14.27,
+      "div_amount_ttm": 14.26,
       "revenue_cagr_3y": 23.004459570318893,
       "earnings_cagr_3y": -11.04336544771204,
       "skor_total": 45,
@@ -20688,7 +20688,7 @@
       "price": 580.0,
       "harga_lot": 58000,
       "pe": 43.090637,
-      "pbv": 3.1383753,
+      "pbv": 2.9960997,
       "roe": 7.3309995,
       "der": 0.86331,
       "net_profit_margin": 2.5229999999999997,
@@ -24061,7 +24061,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": 0.4,
-        "mfi": 79.1,
+        "mfi": 79.2,
         "obv": "Confirm Up"
       }
     },
@@ -27708,7 +27708,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Lemah",
         "momentum": 6.9,
-        "mfi": 45.4,
+        "mfi": 45.5,
         "obv": "Netral"
       }
     },
@@ -30491,7 +30491,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -32.0,
-        "mfi": 42.4,
+        "mfi": 40.2,
         "obv": "Netral"
       }
     },
@@ -31524,7 +31524,7 @@
       "price": 59.0,
       "harga_lot": 5900,
       "pe": null,
-      "pbv": -0.58663857,
+      "pbv": -0.5091342,
       "roe": null,
       "der": null,
       "net_profit_margin": -39.650002,
@@ -31623,7 +31623,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": -17.6,
-        "mfi": 68.3,
+        "mfi": 67.2,
         "obv": "Confirm Up"
       }
     },
@@ -35094,7 +35094,7 @@
       "price": 348.0,
       "harga_lot": 34800,
       "pe": null,
-      "pbv": 6.0505958,
+      "pbv": 5.859671,
       "roe": -7.056,
       "der": 0.61983,
       "net_profit_margin": -57.713,
@@ -38338,7 +38338,7 @@
       "pbv": null,
       "roe": null,
       "der": null,
-      "net_profit_margin": 0.638,
+      "net_profit_margin": -2.913,
       "market_cap": 124476375040.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -38350,7 +38350,7 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 5,
+        "A_kualitas": 3,
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
@@ -48682,7 +48682,7 @@
       "price": 386.0,
       "harga_lot": 38600,
       "pe": 1.308519,
-      "pbv": 0.34324262,
+      "pbv": 0.34702867,
       "roe": -22.069,
       "der": 2.984,
       "net_profit_margin": -14.920998999999998,
@@ -48897,7 +48897,7 @@
       "price": 222.0,
       "harga_lot": 22200,
       "pe": null,
-      "pbv": 0.6378907,
+      "pbv": 0.7975657,
       "roe": -9.144,
       "der": 0.45446,
       "net_profit_margin": 0.0,
@@ -49057,7 +49057,7 @@
       "price": 885.0,
       "harga_lot": 88500,
       "pe": null,
-      "pbv": 14.913552,
+      "pbv": 15.189221,
       "roe": -2.3340001999999997,
       "der": 0.44618,
       "net_profit_margin": -1.087,
@@ -49327,7 +49327,7 @@
       "price": 605.0,
       "harga_lot": 60500,
       "pe": null,
-      "pbv": 11.128422,
+      "pbv": 11.221159,
       "roe": 19.242,
       "der": 1.24151,
       "net_profit_margin": 2.122,
@@ -49379,7 +49379,7 @@
       "price": 50.0,
       "harga_lot": 5000,
       "pe": null,
-      "pbv": 0.24748431,
+      "pbv": 0.18757714,
       "roe": -29.319,
       "der": 14.71,
       "net_profit_margin": -51.458999999999996,
@@ -49971,7 +49971,7 @@
       "price": 70.0,
       "harga_lot": 7000,
       "pe": null,
-      "pbv": 1.7032459,
+      "pbv": 1.191246,
       "roe": 0.9039999999999999,
       "der": 0.38462,
       "net_profit_margin": 1.982,
