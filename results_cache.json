@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:30:19.070471",
+  "generated_at": "2026-08-17T13:44:06.897219",
   "total": 957,
   "data": [
     {
@@ -8231,7 +8231,7 @@
       "price": 1005.0,
       "harga_lot": 100500,
       "pe": 8.517672,
-      "pbv": 0.80943745,
+      "pbv": 0.7920009,
       "roe": 9.100999999999999,
       "der": 0.915,
       "net_profit_margin": 3.27,
@@ -11924,7 +11924,7 @@
       "price": 200.0,
       "harga_lot": 20000,
       "pe": 11.520737,
-      "pbv": 0.27258912,
+      "pbv": 0.27269095,
       "roe": 2.3699999,
       "der": 0.86937,
       "net_profit_margin": 0.636,
@@ -17036,9 +17036,9 @@
       "der": 0.52164,
       "net_profit_margin": 2.7679998,
       "market_cap": 3704400117760.0,
-      "yield_ttm": 10.466109977324264,
+      "yield_ttm": 10.459653514739228,
       "div_streak": 23,
-      "div_amount_ttm": 461.56,
+      "div_amount_ttm": 461.27,
       "revenue_cagr_3y": -6.4966010994185535,
       "earnings_cagr_3y": -32.34793332695614,
       "skor_total": 45,
@@ -17059,7 +17059,7 @@
       ],
       "alasan": [
         "ROE 8.1%",
-        "Dividen ±Rp 462/lembar setahun (yield 10.5%)",
+        "Dividen ±Rp 461/lembar setahun (yield 10.5%)",
         "Dividen 23 tahun berturut",
         "Rev CAGR 3Y -6.5%",
         "PER 14.5x (median sektor 9.8x)",
@@ -30933,7 +30933,7 @@
       ],
       "data_completeness": 0.706,
       "teknikal": {
-        "rsi": 51.9,
+        "rsi": 53.6,
         "macd": "Bearish Lemah",
         "ma": "Downtrend",
         "vol_trend": "Tidak Likuid",
