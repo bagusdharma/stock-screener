@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T17:04:55.007351",
+  "generated_at": "2026-08-28T21:07:40.976212",
   "total": 957,
   "data": [
     {
@@ -2863,9 +2863,9 @@
       "harga_lot": 139000,
       "pe": 16.006449,
       "pbv": null,
-      "roe": 36.150002,
-      "der": 1.23001,
-      "net_profit_margin": 22.371,
+      "roe": 41.199002,
+      "der": 1.1882599999999999,
+      "net_profit_margin": 23.516001,
       "market_cap": 35076649779200.0,
       "yield_ttm": 2.9136690647482015,
       "div_streak": 2,
@@ -2886,7 +2886,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 36.2% — termasuk 2% teratas di sektornya",
+        "ROE 41.2% — termasuk 2% teratas di sektornya",
         "Dividen ±Rp 40/lembar setahun (yield 2.9%)",
         "Dividen 2 tahun berturut",
         "Rev CAGR 3Y 31.9%",
@@ -5109,7 +5109,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -10.2,
-        "mfi": 8.5,
+        "mfi": 8.2,
         "obv": "Netral"
       }
     },
@@ -11757,7 +11757,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 3.0,
-        "mfi": 77.5,
+        "mfi": 77.6,
         "obv": "Netral"
       }
     },
@@ -11911,7 +11911,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 0.5,
-        "mfi": 50.3,
+        "mfi": 50.2,
         "obv": "Netral"
       }
     },
@@ -13588,7 +13588,7 @@
       "price": 1755.0,
       "harga_lot": 175500,
       "pe": 17.902683,
-      "pbv": 10.161248,
+      "pbv": 22.051064,
       "roe": 100.0,
       "der": 18.102,
       "net_profit_margin": 25.577998,
@@ -15216,7 +15216,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": 12.3,
-        "mfi": 51.4,
+        "mfi": 51.5,
         "obv": "Confirm Up"
       }
     },
@@ -18666,7 +18666,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": -4.5,
-        "mfi": 56.9,
+        "mfi": 57.0,
         "obv": "Confirm Up"
       }
     },
@@ -25516,7 +25516,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": -2.4,
-        "mfi": 77.2,
+        "mfi": 77.1,
         "obv": "Bearish Div"
       }
     },
@@ -30595,7 +30595,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": 0.8,
-        "mfi": 80.9,
+        "mfi": 80.8,
         "obv": "Netral"
       }
     },
@@ -31296,7 +31296,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": -25.5,
-        "mfi": 60.6,
+        "mfi": 60.5,
         "obv": "Netral"
       }
     },
@@ -31725,9 +31725,9 @@
         "rsi": 50.6,
         "macd": "Bullish Lemah",
         "ma": "Di Atas MA200",
-        "vol_trend": "Lemah",
+        "vol_trend": "Normal",
         "momentum": -26.9,
-        "mfi": 82.0,
+        "mfi": 82.3,
         "obv": "Confirm Up"
       }
     },
@@ -32589,7 +32589,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -5.6,
-        "mfi": 62.0,
+        "mfi": 61.9,
         "obv": "Netral"
       }
     },
@@ -34727,9 +34727,9 @@
       "harga_lot": 930000,
       "pe": null,
       "pbv": null,
-      "roe": -9.2530005,
-      "der": 0.99673,
-      "net_profit_margin": 0.0,
+      "roe": -8.5080005,
+      "der": 1.25871,
+      "net_profit_margin": -85.16000500000001,
       "market_cap": 137001705668608.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -34741,7 +34741,7 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 10,
+        "A_kualitas": 4,
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
@@ -34749,14 +34749,14 @@
       },
       "penalti_total": -35,
       "penalti_detail": [
-        "ROE negatif (-9.3%): -10",
+        "ROE negatif (-8.5%): -10",
         "Rugi berturut-turut: -10",
         "Data rendah (65%): -15"
       ],
       "alasan": [
         "MA: Uptrend Kuat",
         "MACD: Bullish",
-        "ROE negatif (-9.3%): -10",
+        "ROE negatif (-8.5%): -10",
         "Rugi berturut-turut: -10",
         "Data rendah (65%): -15"
       ],
@@ -36306,7 +36306,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 51.0,
-        "mfi": 39.2,
+        "mfi": 39.3,
         "obv": "Confirm Down"
       }
     },
