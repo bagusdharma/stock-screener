@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:02:12.916587",
+  "generated_at": "2026-09-11T21:16:37.107735",
   "total": 957,
   "data": [
     {
@@ -2201,7 +2201,7 @@
       "price": 1615.0,
       "harga_lot": 161500,
       "pe": 5.857604,
-      "pbv": 1.4290808,
+      "pbv": 1.4695337,
       "roe": 27.224999999999998,
       "der": 8.348,
       "net_profit_margin": 14.848,
@@ -2297,7 +2297,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": 12.1,
-        "mfi": 56.0,
+        "mfi": 55.9,
         "obv": "Confirm Up"
       }
     },
@@ -3685,7 +3685,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Konfirmasi",
         "momentum": 25.9,
-        "mfi": 51.7,
+        "mfi": 51.6,
         "obv": "Confirm Up"
       }
     },
@@ -4312,7 +4312,7 @@
       "sub_sector": "",
       "price": 129.0,
       "harga_lot": 12900,
-      "pe": 9.953704,
+      "pe": 9.802432,
       "pbv": 1.0212969,
       "roe": 11.175,
       "der": 0.23733,
@@ -4505,7 +4505,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Konfirmasi",
         "momentum": 38.8,
-        "mfi": 56.8,
+        "mfi": 56.9,
         "obv": "Confirm Up"
       }
     },
@@ -6445,7 +6445,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Normal",
         "momentum": 45.0,
-        "mfi": 3.8,
+        "mfi": 3.7,
         "obv": "Confirm Down"
       }
     },
@@ -9661,7 +9661,7 @@
       "sub_sector": "",
       "price": 2070.0,
       "harga_lot": 207000,
-      "pe": 97.091934,
+      "pe": 98.05779,
       "pbv": 3.5530565,
       "roe": 3.669,
       "der": 0.208,
@@ -9685,14 +9685,14 @@
       },
       "penalti_total": -5,
       "penalti_detail": [
-        "PER extreme (97.1x): -5"
+        "PER extreme (98.1x): -5"
       ],
       "alasan": [
         "ROE 3.7%",
         "Rev CAGR 3Y 11.6%",
         "MA: Di Atas MA50",
         "MACD: Bearish Lemah",
-        "PER extreme (97.1x): -5"
+        "PER extreme (98.1x): -5"
       ],
       "data_completeness": 0.882,
       "teknikal": {
@@ -12314,7 +12314,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Akumulasi",
         "momentum": 8.1,
-        "mfi": 72.7,
+        "mfi": 72.6,
         "obv": "Confirm Up"
       }
     },
@@ -13916,7 +13916,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 17.4,
-        "mfi": 55.6,
+        "mfi": 55.5,
         "obv": "Netral"
       }
     },
@@ -16504,7 +16504,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 2.3,
-        "mfi": 77.5,
+        "mfi": 77.8,
         "obv": "Confirm Up"
       }
     },
@@ -18207,7 +18207,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Konfirmasi",
         "momentum": 11.8,
-        "mfi": 59.8,
+        "mfi": 60.0,
         "obv": "Confirm Up"
       }
     },
@@ -18310,7 +18310,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Akumulasi",
         "momentum": 30.0,
-        "mfi": 14.3,
+        "mfi": 14.1,
         "obv": "Netral"
       }
     },
@@ -20373,7 +20373,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 10.1,
-        "mfi": 75.7,
+        "mfi": 75.5,
         "obv": "Confirm Up"
       }
     },
@@ -28796,7 +28796,7 @@
       "sub_sector": "",
       "price": 24.0,
       "harga_lot": 2400,
-      "pe": 19.2,
+      "pe": 18.461538,
       "pbv": 0.6520676,
       "roe": null,
       "der": null,
@@ -30319,7 +30319,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 19.5,
-        "mfi": 71.4,
+        "mfi": 71.5,
         "obv": "Confirm Up"
       }
     },
@@ -30698,7 +30698,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 16.7,
-        "mfi": 75.1,
+        "mfi": 72.8,
         "obv": "Confirm Up"
       }
     },
@@ -31775,7 +31775,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 50.0,
-        "mfi": 76.2,
+        "mfi": 76.1,
         "obv": "Confirm Up"
       }
     },
@@ -34654,7 +34654,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Normal",
         "momentum": 25.0,
-        "mfi": 33.3,
+        "mfi": 33.4,
         "obv": "Confirm Down"
       }
     },
@@ -36193,7 +36193,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": -15.7,
-        "mfi": 9.7,
+        "mfi": 9.5,
         "obv": "Netral"
       }
     },
@@ -36299,7 +36299,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 41.2,
-        "mfi": 75.8,
+        "mfi": 75.9,
         "obv": "Confirm Up"
       }
     },
