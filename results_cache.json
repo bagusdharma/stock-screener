@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:56:36.282736",
+  "generated_at": "2026-09-21T23:36:46.441905",
   "total": 957,
   "data": [
     {
@@ -14,7 +14,7 @@
       "roe": 22.378999,
       "der": null,
       "net_profit_margin": 43.377998,
-      "market_cap": 390487991123968.0,
+      "market_cap": 391999987384320.0,
       "yield_ttm": 12.92754619047619,
       "div_streak": 24,
       "div_amount_ttm": 542.96,
@@ -65,7 +65,7 @@
       "roe": 21.818,
       "der": null,
       "net_profit_margin": 53.117999999999995,
-      "market_cap": 764689936023552.0,
+      "market_cap": 764904617279488.0,
       "yield_ttm": 6.120481927710843,
       "div_streak": 23,
       "div_amount_ttm": 381.0,
@@ -116,7 +116,7 @@
       "roe": 18.988000999999997,
       "der": null,
       "net_profit_margin": 41.705,
-      "market_cap": 497257824649216.0,
+      "market_cap": 496897248722944.0,
       "yield_ttm": 10.484848484848484,
       "div_streak": 23,
       "div_amount_ttm": 346.0,
@@ -576,7 +576,7 @@
       "roe": 29.182999999999996,
       "der": 0.76241,
       "net_profit_margin": 7.643999999999999,
-      "market_cap": 26570056007680.0,
+      "market_cap": 26394809597952.0,
       "yield_ttm": 6.167400881057269,
       "div_streak": 11,
       "div_amount_ttm": 140.0,
@@ -613,57 +613,6 @@
         "momentum": 20.7,
         "mfi": 53.5,
         "obv": "Netral"
-      }
-    },
-    {
-      "ticker": "LSIP.JK",
-      "name": "",
-      "sector": "Consumer Non-Cyclical",
-      "sub_sector": "",
-      "price": 1635.0,
-      "harga_lot": 163500,
-      "pe": 5.394793,
-      "pbv": 0.7785255,
-      "roe": 15.198,
-      "der": null,
-      "net_profit_margin": 35.106,
-      "market_cap": 11150641070080.0,
-      "yield_ttm": 5.07645259938838,
-      "div_streak": 18,
-      "div_amount_ttm": 83.0,
-      "revenue_cagr_3y": 6.32561761400825,
-      "earnings_cagr_3y": 22.123557555988626,
-      "skor_total": 89,
-      "skor_raw": 68,
-      "label": "BUY",
-      "sub_label": "",
-      "komponen": {
-        "A_kualitas": 21,
-        "B_dividen": 17,
-        "C_growth": 14,
-        "D_valuasi": 13,
-        "E_teknikal": 3
-      },
-      "penalti_total": 0,
-      "penalti_detail": [],
-      "alasan": [
-        "ROE 15.2%",
-        "Dividen ±Rp 83/lembar setahun (yield 5.1%)",
-        "Dividen 18 tahun berturut",
-        "Rev CAGR 3Y 6.3%",
-        "PER 5.4x (median sektor 9.5x)",
-        "MA: Uptrend Kuat",
-        "MACD: Bearish Cross"
-      ],
-      "data_completeness": 0.882,
-      "teknikal": {
-        "rsi": 55.3,
-        "macd": "Bearish Cross",
-        "ma": "Uptrend Kuat",
-        "vol_trend": "Akumulasi",
-        "momentum": 30.6,
-        "mfi": 74.1,
-        "obv": "Confirm Up"
       }
     },
     {
@@ -933,7 +882,7 @@
       "roe": 12.45,
       "der": null,
       "net_profit_margin": 39.861999999999995,
-      "market_cap": 134869606727680.0,
+      "market_cap": 134734424309760.0,
       "yield_ttm": 9.652302762430939,
       "div_streak": 23,
       "div_amount_ttm": 349.41,
@@ -970,6 +919,57 @@
         "momentum": 9.0,
         "mfi": 35.6,
         "obv": "Netral"
+      }
+    },
+    {
+      "ticker": "LSIP.JK",
+      "name": "",
+      "sector": "Consumer Non-Cyclical",
+      "sub_sector": "",
+      "price": 1635.0,
+      "harga_lot": 163500,
+      "pe": 5.394793,
+      "pbv": 0.7785255,
+      "roe": 15.198,
+      "der": null,
+      "net_profit_margin": 35.106,
+      "market_cap": 11150641070080.0,
+      "yield_ttm": 5.07645259938838,
+      "div_streak": 18,
+      "div_amount_ttm": 83.0,
+      "revenue_cagr_3y": 6.32561761400825,
+      "earnings_cagr_3y": 22.123557555988626,
+      "skor_total": 88,
+      "skor_raw": 66,
+      "label": "BUY",
+      "sub_label": "",
+      "komponen": {
+        "A_kualitas": 21,
+        "B_dividen": 17,
+        "C_growth": 14,
+        "D_valuasi": 11,
+        "E_teknikal": 3
+      },
+      "penalti_total": 0,
+      "penalti_detail": [],
+      "alasan": [
+        "ROE 15.2%",
+        "Dividen ±Rp 83/lembar setahun (yield 5.1%)",
+        "Dividen 18 tahun berturut",
+        "Rev CAGR 3Y 6.3%",
+        "PER 5.4x (median sektor 9.5x)",
+        "MA: Uptrend Kuat",
+        "MACD: Bearish Cross"
+      ],
+      "data_completeness": 0.882,
+      "teknikal": {
+        "rsi": 55.3,
+        "macd": "Bearish Cross",
+        "ma": "Uptrend Kuat",
+        "vol_trend": "Akumulasi",
+        "momentum": 30.6,
+        "mfi": 74.1,
+        "obv": "Confirm Up"
       }
     },
     {
@@ -1490,7 +1490,7 @@
       "roe": 19.881999999999998,
       "der": 0.242,
       "net_profit_margin": 21.604,
-      "market_cap": 19984405233664.0,
+      "market_cap": 19977002287104.0,
       "yield_ttm": 6.804733727810651,
       "div_streak": 5,
       "div_amount_ttm": 23.0,
@@ -5388,7 +5388,7 @@
       "price": 2500.0,
       "harga_lot": 250000,
       "pe": 14.030756,
-      "pbv": 2.0827014,
+      "pbv": 1.8377894,
       "roe": 17.683001,
       "der": 0.59982,
       "net_profit_margin": 12.007,
@@ -5594,7 +5594,7 @@
       "roe": 20.882,
       "der": 1.614,
       "net_profit_margin": 72.08200000000001,
-      "market_cap": 20766496129024.0,
+      "market_cap": 20820288077824.0,
       "yield_ttm": 0.1358695652173913,
       "div_streak": 2,
       "div_amount_ttm": 5.0,
@@ -6039,6 +6039,57 @@
       }
     },
     {
+      "ticker": "ISAT.JK",
+      "name": "",
+      "sector": "Infrastructure",
+      "sub_sector": "",
+      "price": 2310.0,
+      "harga_lot": 231000,
+      "pe": 9.956038,
+      "pbv": 2.010787,
+      "roe": 20.238,
+      "der": 1.76375,
+      "net_profit_margin": 12.4589995,
+      "market_cap": 74499370254336.0,
+      "yield_ttm": 4.805194805194805,
+      "div_streak": 6,
+      "div_amount_ttm": 111.0,
+      "revenue_cagr_3y": 6.527459594317864,
+      "earnings_cagr_3y": 5.266623973506923,
+      "skor_total": 69,
+      "skor_raw": 49,
+      "label": "JUAL",
+      "sub_label": "JUAL — skor rendah",
+      "komponen": {
+        "A_kualitas": 20,
+        "B_dividen": 13,
+        "C_growth": 10,
+        "D_valuasi": 4,
+        "E_teknikal": 2
+      },
+      "penalti_total": 0,
+      "penalti_detail": [],
+      "alasan": [
+        "ROE 20.2% — termasuk 10% teratas di sektornya",
+        "Dividen ±Rp 111/lembar setahun (yield 4.8%)",
+        "Dividen 6 tahun berturut",
+        "Rev CAGR 3Y 6.5%",
+        "PER 10.0x (median sektor 12.0x)",
+        "MA: Uptrend Kuat",
+        "MACD: Bearish Lemah"
+      ],
+      "data_completeness": 0.941,
+      "teknikal": {
+        "rsi": 45.2,
+        "macd": "Bearish Lemah",
+        "ma": "Uptrend Kuat",
+        "vol_trend": "Normal",
+        "momentum": 30.5,
+        "mfi": 41.9,
+        "obv": "Confirm Down"
+      }
+    },
+    {
       "ticker": "JSPT.JK",
       "name": "",
       "sector": "Unknown",
@@ -6355,7 +6406,7 @@
       "price": 114.0,
       "harga_lot": 11400,
       "pe": 8.033827,
-      "pbv": 0.63396025,
+      "pbv": 0.64111936,
       "roe": 7.875,
       "der": 0.42475,
       "net_profit_margin": 6.072,
@@ -9820,7 +9871,7 @@
       "roe": 5.898,
       "der": 0.45909999999999995,
       "net_profit_margin": 41.621,
-      "market_cap": 1898313285632.0,
+      "market_cap": 1898287857664.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -9864,7 +9915,7 @@
       "price": 540.0,
       "harga_lot": 54000,
       "pe": 7.52928,
-      "pbv": 0.32625046,
+      "pbv": 0.33455363,
       "roe": 4.418000200000001,
       "der": 0.33838999999999997,
       "net_profit_margin": 3.2460000000000004,
@@ -10119,7 +10170,7 @@
       "price": 242.0,
       "harga_lot": 24200,
       "pe": 9.257843,
-      "pbv": 0.9901436,
+      "pbv": 0.97535026,
       "roe": 10.738,
       "der": 8.306,
       "net_profit_margin": 12.386999999999999,
@@ -11351,7 +11402,7 @@
       "price": 9375.0,
       "harga_lot": 937500,
       "pe": 9.930513,
-      "pbv": 1.6309556,
+      "pbv": 1.5557308,
       "roe": 16.941,
       "der": null,
       "net_profit_margin": 22.644000000000002,
@@ -12177,7 +12228,7 @@
       "roe": 11.1190006,
       "der": 5.2,
       "net_profit_margin": 10.496,
-      "market_cap": 29126738051072.0,
+      "market_cap": 28808044347392.0,
       "yield_ttm": 6.62200956937799,
       "div_streak": 19,
       "div_amount_ttm": 1730.0,
@@ -12548,7 +12599,7 @@
       "roe": 5.021,
       "der": 16.199,
       "net_profit_margin": 14.841999999999999,
-      "market_cap": 5762273771520.0,
+      "market_cap": 5761024393216.0,
       "yield_ttm": 2.349485123966942,
       "div_streak": 4,
       "div_amount_ttm": 14.21,
@@ -12639,55 +12690,6 @@
       }
     },
     {
-      "ticker": "ISAT.JK",
-      "name": "",
-      "sector": "Infrastructure",
-      "sub_sector": "",
-      "price": 2310.0,
-      "harga_lot": 231000,
-      "pe": 9.956038,
-      "pbv": 2.010787,
-      "roe": 20.238,
-      "der": 1.76375,
-      "net_profit_margin": 12.4589995,
-      "market_cap": 74499370254336.0,
-      "yield_ttm": 0.0,
-      "div_streak": 0,
-      "div_amount_ttm": 0.0,
-      "revenue_cagr_3y": 6.527459594317864,
-      "earnings_cagr_3y": 5.266623973506923,
-      "skor_total": 52,
-      "skor_raw": 36,
-      "label": "JUAL",
-      "sub_label": "JUAL — skor rendah",
-      "komponen": {
-        "A_kualitas": 20,
-        "B_dividen": 0,
-        "C_growth": 10,
-        "D_valuasi": 4,
-        "E_teknikal": 2
-      },
-      "penalti_total": 0,
-      "penalti_detail": [],
-      "alasan": [
-        "ROE 20.2% — termasuk 10% teratas di sektornya",
-        "Rev CAGR 3Y 6.5%",
-        "PER 10.0x (median sektor 12.0x)",
-        "MA: Uptrend Kuat",
-        "MACD: Bearish Lemah"
-      ],
-      "data_completeness": 0.941,
-      "teknikal": {
-        "rsi": 45.2,
-        "macd": "Bearish Lemah",
-        "ma": "Uptrend Kuat",
-        "vol_trend": "Normal",
-        "momentum": 30.5,
-        "mfi": 41.9,
-        "obv": "Confirm Down"
-      }
-    },
-    {
       "ticker": "KEEN.JK",
       "name": "",
       "sector": "Unknown",
@@ -12748,7 +12750,7 @@
       "price": 1380.0,
       "harga_lot": 138000,
       "pe": 8.568768,
-      "pbv": 1.054633,
+      "pbv": 1.0359963,
       "roe": 12.814,
       "der": 0.7689,
       "net_profit_margin": 4.52,
@@ -14090,7 +14092,7 @@
       "price": 380.0,
       "harga_lot": 38000,
       "pe": 69.98158,
-      "pbv": 3.3357327,
+      "pbv": 3.3595319,
       "roe": 4.8979998,
       "der": 0.144,
       "net_profit_margin": 3.1646798,
@@ -15945,7 +15947,7 @@
       "price": 1340.0,
       "harga_lot": 134000,
       "pe": 36.492374,
-      "pbv": 7.250729,
+      "pbv": 6.922024,
       "roe": 18.527001000000002,
       "der": 0.8351099999999999,
       "net_profit_margin": 6.3740000000000006,
@@ -17242,9 +17244,9 @@
       "der": 0.52164,
       "net_profit_margin": 2.7679998,
       "market_cap": 3427199877120.0,
-      "yield_ttm": 11.31199926470588,
+      "yield_ttm": 11.298041176470589,
       "div_streak": 23,
-      "div_amount_ttm": 461.53,
+      "div_amount_ttm": 460.96,
       "revenue_cagr_3y": -6.4966010994185535,
       "earnings_cagr_3y": -32.34793332695614,
       "skor_total": 44,
@@ -17265,7 +17267,7 @@
       ],
       "alasan": [
         "ROE 8.1%",
-        "Dividen ±Rp 462/lembar setahun (yield 11.3%)",
+        "Dividen ±Rp 461/lembar setahun (yield 11.3%)",
         "Dividen 23 tahun berturut",
         "Rev CAGR 3Y -6.5%",
         "PER 13.5x (median sektor 10.1x)",
@@ -18902,7 +18904,7 @@
       "price": 70.0,
       "harga_lot": 7000,
       "pe": 10.835914,
-      "pbv": 0.95708174,
+      "pbv": 0.98667985,
       "roe": 7.553,
       "der": 15.117,
       "net_profit_margin": 3.205,
@@ -19259,7 +19261,7 @@
       "roe": 13.564000000000002,
       "der": 10.278,
       "net_profit_margin": 13.875000000000002,
-      "market_cap": 11568775430144.0,
+      "market_cap": 11557855559680.0,
       "yield_ttm": 11.538461538461538,
       "div_streak": 5,
       "div_amount_ttm": 21.0,
@@ -21952,7 +21954,7 @@
       "roe": 1.572,
       "der": 1.9516300000000002,
       "net_profit_margin": 44.395,
-      "market_cap": 1796564320256.0,
+      "market_cap": 1803447304192.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -22255,7 +22257,7 @@
       "price": 294.0,
       "harga_lot": 29400,
       "pe": 6.125,
-      "pbv": 0.59357965,
+      "pbv": 0.59577364,
       "roe": 9.5869996,
       "der": 1.61774,
       "net_profit_margin": 4.24,
@@ -24374,7 +24376,7 @@
       "price": 78.0,
       "harga_lot": 7800,
       "pe": 16.846651,
-      "pbv": 0.18731269,
+      "pbv": 0.18739009,
       "roe": 0.13400001,
       "der": 12.631,
       "net_profit_margin": 1.155,
@@ -25637,7 +25639,7 @@
       "price": 206.0,
       "harga_lot": 20600,
       "pe": null,
-      "pbv": -0.09298714,
+      "pbv": -0.09774433,
       "roe": null,
       "der": null,
       "net_profit_margin": -9.823,
@@ -25692,7 +25694,7 @@
       "roe": 5.1119997999999995,
       "der": 3.80962,
       "net_profit_margin": 4.677,
-      "market_cap": 45818895663104.0,
+      "market_cap": 40431693856768.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -30507,8 +30509,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 7.9617834,
       "pbv": 0.30504733,
       "roe": null,
@@ -30534,13 +30536,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -32443,8 +32445,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -0.16160205,
       "roe": null,
@@ -32470,13 +32472,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -32647,8 +32649,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 75.187965,
       "pbv": 0.39397377,
       "roe": null,
@@ -32675,14 +32677,14 @@
       "penalti_detail": [
         "Rugi berturut-turut: -10",
         "PER extreme (75.2x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
         "PER extreme (75.2x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -33231,8 +33233,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.27298537,
       "roe": null,
@@ -33258,13 +33260,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -33280,8 +33282,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.6637462,
       "roe": null,
@@ -33307,13 +33309,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -34139,8 +34141,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 176.0,
-      "harga_lot": 17600,
+      "price": null,
+      "harga_lot": 0,
       "pe": 3.0871778,
       "pbv": 0.24846931,
       "roe": null,
@@ -34166,13 +34168,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -34252,7 +34254,7 @@
       "roe": 21.215001,
       "der": 18.574,
       "net_profit_margin": 8.6330004,
-      "market_cap": 553469149184.0,
+      "market_cap": 554568253440.0,
       "yield_ttm": 1.4598540145985401,
       "div_streak": 3,
       "div_amount_ttm": 4.0,
@@ -34464,8 +34466,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 3.1148767,
       "roe": null,
@@ -34491,13 +34493,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -35370,8 +35372,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 18.0,
-      "harga_lot": 1800,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.17190991,
       "roe": null,
@@ -35397,13 +35399,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -35686,8 +35688,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.37399676,
       "roe": null,
@@ -35713,13 +35715,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (18%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (18%): -15"
       ],
-      "data_completeness": 0.235,
+      "data_completeness": 0.176,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -36061,7 +36063,7 @@
       "roe": 0.882,
       "der": 0.63548,
       "net_profit_margin": 0.242,
-      "market_cap": 266600988672.0,
+      "market_cap": 266597580800.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -36430,8 +36432,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -2.3238518,
       "roe": null,
@@ -36457,13 +36459,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -36479,8 +36481,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.52431786,
       "roe": null,
@@ -36506,13 +36508,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -36635,8 +36637,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.4867412,
       "roe": null,
@@ -36662,13 +36664,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -36899,8 +36901,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 2.076412,
       "pbv": 6.3419585,
       "roe": null,
@@ -36926,13 +36928,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -38074,8 +38076,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 52.0,
-      "harga_lot": 5200,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.6580446,
       "roe": null,
@@ -38101,13 +38103,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -38130,7 +38132,7 @@
       "roe": -8.34,
       "der": 2.6622199999999996,
       "net_profit_margin": -2.4030002,
-      "market_cap": 2449298948096.0,
+      "market_cap": 2449299472384.0,
       "yield_ttm": 0.0,
       "div_streak": 2,
       "div_amount_ttm": 0.0,
@@ -38501,8 +38503,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 3.1952965,
       "roe": null,
@@ -38528,13 +38530,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -38665,7 +38667,7 @@
       "roe": 4.935,
       "der": 1.5937799999999998,
       "net_profit_margin": 3.5550002,
-      "market_cap": 1040609509376.0,
+      "market_cap": 1041140809728.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -39295,8 +39297,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 114.0,
-      "harga_lot": 11400,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.40248978,
       "roe": null,
@@ -39322,13 +39324,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (18%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (24%): -15"
+        "Data rendah (18%): -15"
       ],
-      "data_completeness": 0.235,
+      "data_completeness": 0.176,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -39622,8 +39624,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 19.73165,
       "pbv": -0.34563568,
       "roe": null,
@@ -39649,13 +39651,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -40048,8 +40050,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 2.746649,
       "roe": null,
@@ -40075,13 +40077,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -40097,8 +40099,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 6.113964,
       "roe": null,
@@ -40124,13 +40126,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -40630,7 +40632,7 @@
       "price": 112.0,
       "harga_lot": 11200,
       "pe": null,
-      "pbv": 3.2194083,
+      "pbv": 3.9403322,
       "roe": -35.884997,
       "der": 16.439,
       "net_profit_margin": 0.0,
@@ -40787,8 +40789,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 238.0,
-      "harga_lot": 23800,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 1.0374801,
       "roe": null,
@@ -40814,14 +40816,14 @@
       "penalti_total": -20,
       "penalti_detail": [
         "Revenue turun: -5",
-        "Data rendah (47%): -15"
+        "Data rendah (41%): -15"
       ],
       "alasan": [
         "Rev CAGR 3Y -40.6%",
         "Revenue turun: -5",
-        "Data rendah (47%): -15"
+        "Data rendah (41%): -15"
       ],
-      "data_completeness": 0.471,
+      "data_completeness": 0.412,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -41648,7 +41650,7 @@
       "price": 13.0,
       "harga_lot": 1300,
       "pe": null,
-      "pbv": -0.7817198,
+      "pbv": -0.74549836,
       "roe": null,
       "der": null,
       "net_profit_margin": -7.968999999999999,
@@ -41748,8 +41750,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 244.0,
-      "harga_lot": 24400,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 1.8617711,
       "roe": null,
@@ -41775,13 +41777,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -42547,8 +42549,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.51189643,
       "roe": null,
@@ -42574,13 +42576,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -42764,8 +42766,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 159.0,
-      "harga_lot": 15900,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -0.1916263,
       "roe": null,
@@ -42791,13 +42793,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -42982,7 +42984,7 @@
       "roe": -8.1499994,
       "der": null,
       "net_profit_margin": -94.098,
-      "market_cap": 94589984768.0,
+      "market_cap": 92203606016.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -43517,7 +43519,7 @@
       "roe": -16.573,
       "der": 0.23132999999999998,
       "net_profit_margin": -76.274,
-      "market_cap": 59252498432.0,
+      "market_cap": 592714792960.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -43668,8 +43670,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.36253953,
       "roe": null,
@@ -43695,13 +43697,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -43828,7 +43830,7 @@
       "price": 482.0,
       "harga_lot": 48200,
       "pe": null,
-      "pbv": 3.269836,
+      "pbv": 3.588499,
       "roe": -4.9000002,
       "der": 11.758,
       "net_profit_margin": -6.683999999999999,
@@ -43985,8 +43987,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.3137747,
       "roe": null,
@@ -44012,13 +44014,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -44034,8 +44036,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -2.3722541,
       "roe": null,
@@ -44061,13 +44063,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -44732,8 +44734,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 51.0,
-      "harga_lot": 5100,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -0.5244755,
       "roe": null,
@@ -44759,13 +44761,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -45329,8 +45331,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 18.248175,
       "pbv": 0.40448493,
       "roe": null,
@@ -45356,13 +45358,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -46075,8 +46077,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -11.037527,
       "roe": null,
@@ -46102,13 +46104,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -46176,8 +46178,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 51.0,
-      "harga_lot": 5100,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 0.54233396,
       "roe": null,
@@ -46203,13 +46205,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -46228,7 +46230,7 @@
       "price": 86.0,
       "harga_lot": 8600,
       "pe": null,
-      "pbv": 0.67085296,
+      "pbv": 0.5446692,
       "roe": -6.1929997,
       "der": 17.812,
       "net_profit_margin": -10.057,
@@ -46389,8 +46391,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": 3.9751947,
       "roe": null,
@@ -46416,13 +46418,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -46496,7 +46498,7 @@
       "price": 354.0,
       "harga_lot": 35400,
       "pe": null,
-      "pbv": 17.606684,
+      "pbv": 15.033762,
       "roe": -29.302,
       "der": 1.097,
       "net_profit_margin": -26.340000000000003,
@@ -46553,7 +46555,7 @@
       "roe": -10.0509994,
       "der": 0.46581000000000006,
       "net_profit_margin": -0.8789999999999999,
-      "market_cap": 747836604416.0,
+      "market_cap": 911181611008.0,
       "yield_ttm": 0.0,
       "div_streak": 2,
       "div_amount_ttm": 0.0,
@@ -46709,7 +46711,7 @@
       "price": 97.0,
       "harga_lot": 9700,
       "pe": null,
-      "pbv": 1.5500408,
+      "pbv": 1.5600876,
       "roe": 2.08,
       "der": 5.331,
       "net_profit_margin": 2.2809999000000003,
@@ -46868,8 +46870,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 146.0,
-      "harga_lot": 14600,
+      "price": null,
+      "harga_lot": 0,
       "pe": 2.3981602,
       "pbv": null,
       "roe": null,
@@ -46895,13 +46897,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (29%): -15"
+        "Data rendah (24%): -15"
       ],
-      "data_completeness": 0.294,
+      "data_completeness": 0.235,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -46920,7 +46922,7 @@
       "price": 470.0,
       "harga_lot": 47000,
       "pe": null,
-      "pbv": 2.7345295,
+      "pbv": 2.6015866,
       "roe": -4.676,
       "der": null,
       "net_profit_margin": -3.5000000000000004,
@@ -47026,8 +47028,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": null,
       "roe": null,
@@ -47053,13 +47055,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
-      "data_completeness": 0.176,
+      "data_completeness": 0.118,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -47398,7 +47400,7 @@
       "price": 30.0,
       "harga_lot": 3000,
       "pe": null,
-      "pbv": 0.29026172,
+      "pbv": 0.29054284,
       "roe": -0.464,
       "der": null,
       "net_profit_margin": -1.02254,
@@ -47555,14 +47557,63 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 119.0,
-      "harga_lot": 11900,
+      "price": null,
+      "harga_lot": 0,
       "pe": 16.368639,
       "pbv": null,
       "roe": null,
       "der": null,
       "net_profit_margin": null,
       "market_cap": 1247726796800.0,
+      "yield_ttm": 0.0,
+      "div_streak": 0,
+      "div_amount_ttm": 0.0,
+      "revenue_cagr_3y": null,
+      "earnings_cagr_3y": null,
+      "skor_total": 0,
+      "skor_raw": 0,
+      "label": "JUAL",
+      "sub_label": "JUAL — data tidak cukup",
+      "komponen": {
+        "A_kualitas": 5,
+        "B_dividen": 0,
+        "C_growth": 0,
+        "D_valuasi": 0,
+        "E_teknikal": 0
+      },
+      "penalti_total": -25,
+      "penalti_detail": [
+        "Rugi berturut-turut: -10",
+        "Data rendah (24%): -15"
+      ],
+      "alasan": [
+        "Rugi berturut-turut: -10",
+        "Data rendah (24%): -15"
+      ],
+      "data_completeness": 0.235,
+      "teknikal": {
+        "rsi": null,
+        "macd": null,
+        "ma": null,
+        "vol_trend": null,
+        "momentum": null,
+        "mfi": null,
+        "obv": null
+      }
+    },
+    {
+      "ticker": "TECH.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": null,
+      "harga_lot": 0,
+      "pe": 49.019608,
+      "pbv": 0.9448581,
+      "roe": null,
+      "der": null,
+      "net_profit_margin": null,
+      "market_cap": 62815002624.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -47589,55 +47640,6 @@
         "Data rendah (29%): -15"
       ],
       "data_completeness": 0.294,
-      "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
-        "mfi": null,
-        "obv": null
-      }
-    },
-    {
-      "ticker": "TECH.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
-      "pe": 49.019608,
-      "pbv": 0.9448581,
-      "roe": null,
-      "der": null,
-      "net_profit_margin": null,
-      "market_cap": 62815002624.0,
-      "yield_ttm": 0.0,
-      "div_streak": 0,
-      "div_amount_ttm": 0.0,
-      "revenue_cagr_3y": null,
-      "earnings_cagr_3y": null,
-      "skor_total": 0,
-      "skor_raw": 0,
-      "label": "JUAL",
-      "sub_label": "JUAL — data tidak cukup",
-      "komponen": {
-        "A_kualitas": 5,
-        "B_dividen": 0,
-        "C_growth": 0,
-        "D_valuasi": 0,
-        "E_teknikal": 0
-      },
-      "penalti_total": -25,
-      "penalti_detail": [
-        "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
-      ],
-      "alasan": [
-        "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
-      ],
-      "data_completeness": 0.353,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -47980,7 +47982,7 @@
       "roe": -34.333000000000006,
       "der": 2.14117,
       "net_profit_margin": -18.083,
-      "market_cap": 4196335091712.0,
+      "market_cap": 4165926912000.0,
       "yield_ttm": 3.6762079207920797,
       "div_streak": 2,
       "div_amount_ttm": 18.56,
@@ -48246,8 +48248,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": 14.367816,
       "pbv": 1.2069131,
       "roe": null,
@@ -48273,13 +48275,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -48295,8 +48297,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 50.0,
-      "harga_lot": 5000,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": null,
       "roe": null,
@@ -48322,13 +48324,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
-      "data_completeness": 0.176,
+      "data_completeness": 0.118,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -48344,8 +48346,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 426.0,
-      "harga_lot": 42600,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": null,
       "roe": null,
@@ -48371,13 +48373,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (18%): -15"
+        "Data rendah (12%): -15"
       ],
-      "data_completeness": 0.176,
+      "data_completeness": 0.118,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -48763,8 +48765,8 @@
       "name": "",
       "sector": "Unknown",
       "sub_sector": "",
-      "price": 316.0,
-      "harga_lot": 31600,
+      "price": null,
+      "harga_lot": 0,
       "pe": 69.741776,
       "pbv": 0.17648742,
       "roe": null,
@@ -48791,14 +48793,14 @@
       "penalti_detail": [
         "Rugi berturut-turut: -10",
         "PER extreme (69.7x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
         "PER extreme (69.7x): -5",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -48817,7 +48819,7 @@
       "price": 78.0,
       "harga_lot": 7800,
       "pe": null,
-      "pbv": 1.0278846,
+      "pbv": 0.9450307,
       "roe": -16.315001000000002,
       "der": 1.1305800000000001,
       "net_profit_margin": -19.947,
@@ -48872,7 +48874,7 @@
       "price": 120.0,
       "harga_lot": 12000,
       "pe": null,
-      "pbv": 0.90614593,
+      "pbv": 0.9247414,
       "roe": null,
       "der": 13.829,
       "net_profit_margin": 43.363,
@@ -48976,7 +48978,7 @@
       "price": 1225.0,
       "harga_lot": 122500,
       "pe": null,
-      "pbv": 20.643053,
+      "pbv": 21.075632,
       "roe": -3.0550001,
       "der": 0.354,
       "net_profit_margin": -1.4460000000000002,
@@ -49136,7 +49138,7 @@
       "price": 274.0,
       "harga_lot": 27400,
       "pe": null,
-      "pbv": 2.004008,
+      "pbv": 2.0288332,
       "roe": -10.223,
       "der": 2.00132,
       "net_profit_margin": -2.9669999999999996,
@@ -49779,8 +49781,8 @@
       "name": "",
       "sector": "Infrastructure",
       "sub_sector": "",
-      "price": 202.0,
-      "harga_lot": 20200,
+      "price": null,
+      "harga_lot": 0,
       "pe": null,
       "pbv": -15.958287,
       "roe": null,
@@ -49806,13 +49808,13 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
       "alasan": [
         "Rugi berturut-turut: -10",
-        "Data rendah (35%): -15"
+        "Data rendah (29%): -15"
       ],
-      "data_completeness": 0.353,
+      "data_completeness": 0.294,
       "teknikal": {
         "rsi": null,
         "macd": null,
@@ -49936,7 +49938,7 @@
       "price": 62.0,
       "harga_lot": 6200,
       "pe": null,
-      "pbv": 1.5085893,
+      "pbv": 1.0551037,
       "roe": -22.555,
       "der": 0.31115,
       "net_profit_margin": -45.448001999999995,
