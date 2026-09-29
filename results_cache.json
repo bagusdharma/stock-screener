@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:00:51.978105",
+  "generated_at": "2026-09-29T23:33:09.365385",
   "total": 957,
   "data": [
     {
@@ -1078,7 +1078,7 @@
       "sub_sector": "",
       "price": 1205.0,
       "harga_lot": 120500,
-      "pe": 8.251729,
+      "pe": 8.253989,
       "pbv": 2.0464587,
       "roe": 29.994,
       "der": 0.2432,
@@ -10382,7 +10382,7 @@
       "sub_sector": "",
       "price": 1445.0,
       "harga_lot": 144500,
-      "pe": 22.51831,
+      "pe": 22.472782,
       "pbv": 2.5242379,
       "roe": 12.45,
       "der": 2.2083500000000003,
@@ -12604,9 +12604,9 @@
       "der": 0.52164,
       "net_profit_margin": 2.7679998,
       "market_cap": 3024000122880.0,
-      "yield_ttm": 6.646550833333334,
+      "yield_ttm": 6.656910000000001,
       "div_streak": 24,
-      "div_amount_ttm": 239.28,
+      "div_amount_ttm": 239.65,
       "revenue_cagr_3y": -6.4966010994185535,
       "earnings_cagr_3y": -32.34793332695614,
       "skor_total": 52,
@@ -12626,7 +12626,7 @@
       ],
       "alasan": [
         "ROE 8.1%",
-        "Dividen ±Rp 239/lembar setahun (yield 6.6%)",
+        "Dividen ±Rp 240/lembar setahun (yield 6.7%)",
         "Dividen 24 tahun berturut",
         "Rev CAGR 3Y -6.5%",
         "PER 11.9x (median sektor 10.1x)",
@@ -25458,24 +25458,26 @@
       "penalti_total": -25,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "Data rendah (53%): -15"
+        "Data rendah (59%): -15"
       ],
       "alasan": [
         "ROE 11.1% — termasuk 22% teratas di sektornya",
         "Dividen ±Rp 2/lembar setahun (yield 2.4%)",
         "Dividen 4 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish",
         "Rugi berturut-turut: -10",
-        "Data rendah (53%): -15"
+        "Data rendah (59%): -15"
       ],
-      "data_completeness": 0.529,
+      "data_completeness": 0.588,
       "teknikal": {
-        "rsi": null,
-        "macd": null,
-        "ma": null,
-        "vol_trend": null,
-        "momentum": null,
-        "mfi": null,
-        "obv": null
+        "rsi": 28.7,
+        "macd": "Bearish",
+        "ma": "Downtrend",
+        "vol_trend": "Normal",
+        "momentum": 6.7,
+        "mfi": 77.5,
+        "obv": "Netral"
       }
     },
     {
