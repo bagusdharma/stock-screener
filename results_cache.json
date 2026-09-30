@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:57:53.360651",
+  "generated_at": "2026-09-30T19:47:06.300723",
   "total": 957,
   "data": [
     {
@@ -202,7 +202,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Normal",
         "momentum": 23.5,
-        "mfi": 24.7,
+        "mfi": 24.6,
         "obv": "Confirm Down"
       }
     },
@@ -264,7 +264,7 @@
       "sub_sector": "",
       "price": 755.0,
       "harga_lot": 75500,
-      "pe": 9.2865925,
+      "pe": 9.052757,
       "pbv": 2.9749355,
       "roe": 34.203997,
       "der": 0.009,
@@ -405,7 +405,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": 2.5,
-        "mfi": 22.9,
+        "mfi": 23.0,
         "obv": "Confirm Down"
       }
     },
@@ -558,7 +558,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": 2.8,
-        "mfi": 75.2,
+        "mfi": 75.1,
         "obv": "Bullish Div"
       }
     },
@@ -1729,7 +1729,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": -2.6,
-        "mfi": 5.1,
+        "mfi": 5.4,
         "obv": "Confirm Down"
       }
     },
@@ -4967,7 +4967,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -0.9,
-        "mfi": 24.7,
+        "mfi": 24.5,
         "obv": "Confirm Down"
       }
     },
@@ -10802,7 +10802,7 @@
       "sub_sector": "",
       "price": 1920.0,
       "harga_lot": 192000,
-      "pe": 27.420738,
+      "pe": 27.416822,
       "pbv": 3.28496,
       "roe": 12.339,
       "der": null,
@@ -11621,7 +11621,7 @@
       "sub_sector": "",
       "price": 151.0,
       "harga_lot": 15100,
-      "pe": 15.471312,
+      "pe": 15.48718,
       "pbv": 0.6206381,
       "roe": 3.173,
       "der": null,
@@ -11758,7 +11758,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 21.9,
-        "mfi": 90.6,
+        "mfi": 90.7,
         "obv": "Confirm Up"
       }
     },
@@ -12427,7 +12427,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -0.3,
-        "mfi": 47.5,
+        "mfi": 46.3,
         "obv": "Netral"
       }
     },
@@ -14152,7 +14152,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -1.7,
-        "mfi": 30.5,
+        "mfi": 30.6,
         "obv": "Confirm Down"
       }
     },
@@ -14763,7 +14763,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -0.0,
-        "mfi": 36.9,
+        "mfi": 33.0,
         "obv": "Confirm Down"
       }
     },
@@ -21219,7 +21219,7 @@
       "sub_sector": "",
       "price": 492.0,
       "harga_lot": 49200,
-      "pe": 6.3771873,
+      "pe": 6.3012295,
       "pbv": 0.8203952,
       "roe": 13.295001000000001,
       "der": 0.6044700000000001,
@@ -21731,7 +21731,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": 13.2,
-        "mfi": 22.6,
+        "mfi": 23.4,
         "obv": "Netral"
       }
     },
@@ -26534,7 +26534,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": -18.0,
-        "mfi": 65.8,
+        "mfi": 65.7,
         "obv": "Bullish Div"
       }
     },
@@ -36100,7 +36100,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 37.9,
-        "mfi": 75.2,
+        "mfi": 75.1,
         "obv": "Confirm Up"
       }
     },
@@ -42336,9 +42336,9 @@
       "harga_lot": 16800,
       "pe": null,
       "pbv": 2.2299209,
-      "roe": -10.084999999999999,
-      "der": 1.67963,
-      "net_profit_margin": -12.331,
+      "roe": -11.74,
+      "der": 1.7141499999999998,
+      "net_profit_margin": -14.017999,
       "market_cap": 3729410490368.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -42358,14 +42358,14 @@
       },
       "penalti_total": -20,
       "penalti_detail": [
-        "ROE negatif (-10.1%): -10",
+        "ROE negatif (-11.7%): -10",
         "Rugi berturut-turut: -10"
       ],
       "alasan": [
         "Rev CAGR 3Y 18.6%",
         "MA: Di Atas MA50",
         "MACD: Bearish Lemah",
-        "ROE negatif (-10.1%): -10",
+        "ROE negatif (-11.7%): -10",
         "Rugi berturut-turut: -10"
       ],
       "data_completeness": 0.765,
