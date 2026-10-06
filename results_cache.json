@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:42:02.847336",
+  "generated_at": "2026-10-06T23:43:49.202092",
   "total": 957,
   "data": [
     {
@@ -1027,7 +1027,7 @@
       "sub_sector": "",
       "price": 780.0,
       "harga_lot": 78000,
-      "pe": 7.451992,
+      "pe": 7.744241,
       "pbv": 2.3703308,
       "roe": 36.033001999999996,
       "der": 1.44178,
@@ -1056,7 +1056,7 @@
         "Dividen ±Rp 1/lembar setahun (yield 0.1%)",
         "Dividen 1 tahun berturut",
         "Rev CAGR 3Y 23.0%",
-        "PER 7.5x (median sektor 7.3x)",
+        "PER 7.7x (median sektor 7.3x)",
         "MA: Uptrend Kuat",
         "MACD: Bearish Lemah"
       ],
@@ -1791,7 +1791,7 @@
       "sub_sector": "",
       "price": 960.0,
       "harga_lot": 96000,
-      "pe": 6.0495305,
+      "pe": 6.11465,
       "pbv": 0.7209264,
       "roe": 12.149999000000001,
       "der": null,
@@ -1822,7 +1822,7 @@
         "Dividen ±Rp 86/lembar setahun (yield 8.9%)",
         "Dividen 7 tahun berturut",
         "Rev CAGR 3Y -2.1%",
-        "PER 6.0x (median sektor 7.3x)",
+        "PER 6.1x (median sektor 7.3x)",
         "MA: Downtrend",
         "MACD: Bearish",
         "Revenue turun: -5"
@@ -2926,7 +2926,7 @@
       "sub_sector": "",
       "price": 2190.0,
       "harga_lot": 219000,
-      "pe": 7.548861,
+      "pe": 7.583365,
       "pbv": 2.6997342,
       "roe": 41.946998,
       "der": 1.11814,
@@ -2955,7 +2955,7 @@
         "Dividen ±Rp 40/lembar setahun (yield 1.8%)",
         "Dividen 9 tahun berturut",
         "Rev CAGR 3Y 86.0%",
-        "PER 7.5x (median sektor 9.5x)",
+        "PER 7.6x (median sektor 9.5x)",
         "MA: Di Atas MA50",
         "MACD: Bearish Lemah"
       ],
@@ -3027,7 +3027,7 @@
       "sub_sector": "",
       "price": 695.0,
       "harga_lot": 69500,
-      "pe": 14.048918,
+      "pe": 14.253487,
       "pbv": 0.95350987,
       "roe": 7.332,
       "der": 0.20896,
@@ -3056,7 +3056,7 @@
         "Dividen ±Rp 10/lembar setahun (yield 1.4%)",
         "Dividen 16 tahun berturut",
         "Rev CAGR 3Y 8.7%",
-        "PER 14.0x (median sektor 6.4x)",
+        "PER 14.3x (median sektor 6.4x)",
         "MA: Uptrend Kuat",
         "MACD: Bullish"
       ],
@@ -4566,7 +4566,7 @@
       "sub_sector": "",
       "price": 2600.0,
       "harga_lot": 260000,
-      "pe": 7.3903527,
+      "pe": 7.6562915,
       "pbv": null,
       "roe": 12.3380005,
       "der": 0.37823999999999997,
@@ -4598,7 +4598,7 @@
         "Dividen ±Rp 263/lembar setahun (yield 10.1%)",
         "Dividen 18 tahun berturut",
         "Rev CAGR 3Y -38.6%",
-        "PER 7.4x (median sektor 10.9x)",
+        "PER 7.7x (median sektor 10.9x)",
         "MA: Uptrend Kuat",
         "MACD: Bearish",
         "Revenue turun: -5",
@@ -5029,7 +5029,7 @@
       "sub_sector": "",
       "price": 685.0,
       "harga_lot": 68500,
-      "pe": 21.038082,
+      "pe": 22.189827,
       "pbv": null,
       "roe": 19.903000000000002,
       "der": 1.12726,
@@ -5058,7 +5058,7 @@
         "Dividen ±Rp 13/lembar setahun (yield 1.9%)",
         "Dividen 10 tahun berturut",
         "Rev CAGR 3Y 28.2%",
-        "PER 21.0x (median sektor 10.9x)",
+        "PER 22.2x (median sektor 10.9x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -5129,7 +5129,7 @@
       "sub_sector": "",
       "price": 2680.0,
       "harga_lot": 268000,
-      "pe": 8.146145,
+      "pe": 8.176964,
       "pbv": 1.2411953,
       "roe": 15.387,
       "der": 11.887,
@@ -5160,7 +5160,7 @@
         "Dividen ±Rp 150/lembar setahun (yield 5.6%)",
         "Dividen 21 tahun berturut",
         "Rev CAGR 3Y 4.6%",
-        "PER 8.1x (median sektor 14.9x)",
+        "PER 8.2x (median sektor 14.9x)",
         "MA: Di Atas MA200",
         "MACD: Bearish",
         "DER tinggi 11.9x: -8"
@@ -5534,7 +5534,7 @@
       "sub_sector": "",
       "price": 4730.0,
       "harga_lot": 473000,
-      "pe": 30.514162,
+      "pe": 33.069984,
       "pbv": 2.953385,
       "roe": 10.487001,
       "der": 1.571,
@@ -6044,7 +6044,7 @@
       "sub_sector": "",
       "price": 31.0,
       "harga_lot": 3100,
-      "pe": 4.466859,
+      "pe": 4.6199703,
       "pbv": 0.2911892,
       "roe": 5.365,
       "der": 0.6848099999999999,
@@ -6303,7 +6303,7 @@
       "sub_sector": "",
       "price": 920.0,
       "harga_lot": 92000,
-      "pe": 19.844694,
+      "pe": 19.425676,
       "pbv": 5.3724823,
       "roe": 30.323,
       "der": 0.51906,
@@ -7423,7 +7423,7 @@
       "sub_sector": "",
       "price": 458.0,
       "harga_lot": 45800,
-      "pe": 17.115097,
+      "pe": 16.962963,
       "pbv": 1.1545831,
       "roe": null,
       "der": 0.6548999999999999,
@@ -7451,7 +7451,7 @@
         "Dividen ±Rp 26/lembar setahun (yield 5.6%)",
         "Dividen 5 tahun berturut",
         "Rev CAGR 3Y 7.2%",
-        "PER 17.1x (median sektor 11.3x)",
+        "PER 17.0x (median sektor 11.3x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -7932,7 +7932,7 @@
       "sub_sector": "",
       "price": 328.0,
       "harga_lot": 32800,
-      "pe": 18.27298,
+      "pe": 16.734694,
       "pbv": 0.9528679,
       "roe": 5.804,
       "der": 0.55993,
@@ -10695,7 +10695,7 @@
       "sub_sector": "",
       "price": 220.0,
       "harga_lot": 22000,
-      "pe": 5.97177,
+      "pe": 6.025747,
       "pbv": 0.6076341,
       "roe": 10.024,
       "der": 1.18678,
@@ -12031,7 +12031,7 @@
       "sub_sector": "",
       "price": 152.0,
       "harga_lot": 15200,
-      "pe": 15.6862755,
+      "pe": 15.589744,
       "pbv": 0.62474823,
       "roe": 3.173,
       "der": null,
@@ -13119,7 +13119,7 @@
       "sub_sector": "",
       "price": 855.0,
       "harga_lot": 85500,
-      "pe": 33.385395,
+      "pe": 33.794468,
       "pbv": null,
       "roe": 3.179,
       "der": 0.49552,
@@ -13735,7 +13735,7 @@
       "sub_sector": "",
       "price": 132.0,
       "harga_lot": 13200,
-      "pe": 32.116787,
+      "pe": 32.352943,
       "pbv": null,
       "roe": 2.5069999999999997,
       "der": 0.83923,
@@ -16199,7 +16199,7 @@
       "sub_sector": "",
       "price": 468.0,
       "harga_lot": 46800,
-      "pe": 6.3431826,
+      "pe": 6.369947,
       "pbv": 0.60674655,
       "roe": 11.018,
       "der": 0.103,
@@ -16922,7 +16922,7 @@
       "sub_sector": "",
       "price": 575.0,
       "harga_lot": 57500,
-      "pe": 61.497322,
+      "pe": 64.82526,
       "pbv": null,
       "roe": 6.917,
       "der": 0.6936599999999999,
@@ -16946,7 +16946,7 @@
       },
       "penalti_total": -5,
       "penalti_detail": [
-        "PER extreme (61.5x): -5"
+        "PER extreme (64.8x): -5"
       ],
       "alasan": [
         "ROE 6.9% — termasuk 34% teratas di sektornya",
@@ -16954,7 +16954,7 @@
         "Dividen 1 tahun berturut",
         "MA: Downtrend",
         "MACD: Bearish",
-        "PER extreme (61.5x): -5"
+        "PER extreme (64.8x): -5"
       ],
       "data_completeness": 0.706,
       "teknikal": {
@@ -20707,7 +20707,7 @@
       "sub_sector": "",
       "price": 1760.0,
       "harga_lot": 176000,
-      "pe": 38.613426,
+      "pe": 40.357716,
       "pbv": 1.4318907,
       "roe": 5.962,
       "der": 0.29170999999999997,
@@ -20738,7 +20738,7 @@
         "Dividen ±Rp 5/lembar setahun (yield 0.3%)",
         "Dividen 3 tahun berturut",
         "Rev CAGR 3Y 7.0%",
-        "PER 38.6x (median sektor 6.4x)",
+        "PER 40.4x (median sektor 6.4x)",
         "MA: Uptrend Kuat",
         "MACD: Bullish Cross",
         "Rugi berturut-turut: -10"
@@ -22008,7 +22008,7 @@
       "sub_sector": "",
       "price": 1345.0,
       "harga_lot": 134500,
-      "pe": 44.41876,
+      "pe": 44.59549,
       "pbv": null,
       "roe": 0.7969999999999999,
       "der": 7.322,
@@ -23418,7 +23418,7 @@
       "sub_sector": "",
       "price": 79.0,
       "harga_lot": 7900,
-      "pe": 2.3393545,
+      "pe": 2.2786272,
       "pbv": 0.08041654,
       "roe": 3.2460000000000004,
       "der": 19.848,
@@ -23528,7 +23528,7 @@
       "sub_sector": "",
       "price": 370.0,
       "harga_lot": 37000,
-      "pe": 95.60724,
+      "pe": 119.35484,
       "pbv": 2.9589822,
       "roe": 2.8289999999999997,
       "der": 4.417,
@@ -23554,7 +23554,7 @@
       "penalti_detail": [
         "Revenue turun: -5",
         "DER tinggi 4.4x: -8",
-        "PER extreme (95.6x): -5"
+        "PER extreme (119.4x): -5"
       ],
       "alasan": [
         "ROE 2.8%",
@@ -23564,7 +23564,7 @@
         "MACD: Bullish",
         "Revenue turun: -5",
         "DER tinggi 4.4x: -8",
-        "PER extreme (95.6x): -5"
+        "PER extreme (119.4x): -5"
       ],
       "data_completeness": 0.882,
       "teknikal": {
@@ -24846,7 +24846,7 @@
       "sub_sector": "",
       "price": 2970.0,
       "harga_lot": 297000,
-      "pe": 76.07582,
+      "pe": 77.9323,
       "pbv": null,
       "roe": 7.467,
       "der": 0.86028,
@@ -24871,18 +24871,18 @@
       "penalti_total": -15,
       "penalti_detail": [
         "Rugi berturut-turut: -10",
-        "PER extreme (76.1x): -5"
+        "PER extreme (77.9x): -5"
       ],
       "alasan": [
         "ROE 7.5%",
         "Dividen ±Rp 12/lembar setahun (yield 0.4%)",
         "Dividen 1 tahun berturut",
         "Rev CAGR 3Y 29.6%",
-        "PER 76.1x (median sektor 10.1x)",
+        "PER 77.9x (median sektor 10.1x)",
         "MA: Di Atas MA50",
         "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
-        "PER extreme (76.1x): -5"
+        "PER extreme (77.9x): -5"
       ],
       "data_completeness": 0.824,
       "teknikal": {
