@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:59:37.901288",
+  "generated_at": "2026-10-07T20:35:12.581028",
   "total": 957,
   "data": [
     {
@@ -2619,7 +2619,7 @@
       "sub_sector": "",
       "price": 432.0,
       "harga_lot": 43200,
-      "pe": 5.332675,
+      "pe": 5.436698,
       "pbv": 0.5273637,
       "roe": 10.293999,
       "der": 0.62376,
@@ -2650,7 +2650,7 @@
         "Dividen ±Rp 20/lembar setahun (yield 4.6%)",
         "Dividen 6 tahun berturut",
         "Rev CAGR 3Y -1.8%",
-        "PER 5.3x (median sektor 12.2x)",
+        "PER 5.4x (median sektor 12.2x)",
         "MA: Uptrend Kuat",
         "MACD: Bullish Lemah",
         "Revenue turun: -5"
@@ -2867,7 +2867,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 11.5,
-        "mfi": 48.8,
+        "mfi": 48.4,
         "obv": "Netral"
       }
     },
@@ -4104,9 +4104,9 @@
       "harga_lot": 12900,
       "pe": 9.802432,
       "pbv": 1.0212969,
-      "roe": 11.175,
-      "der": 0.23733,
-      "net_profit_margin": 12.845,
+      "roe": 10.8380005,
+      "der": 0.21492999999999998,
+      "net_profit_margin": 12.356,
       "market_cap": 349590028288.0,
       "yield_ttm": 2.7131782945736433,
       "div_streak": 4,
@@ -4127,7 +4127,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 11.2% — termasuk 22% teratas di sektornya",
+        "ROE 10.8% — termasuk 22% teratas di sektornya",
         "Dividen ±Rp 4/lembar setahun (yield 2.7%)",
         "Dividen 4 tahun berturut",
         "Rev CAGR 3Y 14.7%",
@@ -4386,7 +4386,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 8.3% — termasuk 29% teratas di sektornya",
+        "ROE 8.3% — termasuk 28% teratas di sektornya",
         "Rev CAGR 3Y 69.9%",
         "MA: Di Atas MA50",
         "MACD: Bearish Lemah"
@@ -5937,7 +5937,7 @@
       "sub_sector": "",
       "price": 2010.0,
       "harga_lot": 201000,
-      "pe": 9.668574,
+      "pe": 9.863579,
       "pbv": 3.4875734,
       "roe": 35.969,
       "der": 9.035,
@@ -5968,7 +5968,7 @@
         "Dividen ±Rp 201/lembar setahun (yield 10.0%)",
         "Dividen 6 tahun berturut",
         "Rev CAGR 3Y 6.9%",
-        "PER 9.7x (median sektor 9.5x)",
+        "PER 9.9x (median sektor 9.5x)",
         "MA: Uptrend Kuat",
         "MACD: Bearish",
         "DER tinggi 9.0x: -8"
@@ -6733,7 +6733,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 9.1% — termasuk 27% teratas di sektornya",
+        "ROE 9.1% — termasuk 26% teratas di sektornya",
         "Dividen ±Rp 4/lembar setahun (yield 2.6%)",
         "Dividen 3 tahun berturut",
         "Rev CAGR 3Y 13.0%",
@@ -6987,7 +6987,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 8.6% — termasuk 28% teratas di sektornya",
+        "ROE 8.6% — termasuk 27% teratas di sektornya",
         "Dividen ±Rp 44/lembar setahun (yield 7.8%)",
         "Dividen 4 tahun berturut",
         "Rev CAGR 3Y 0.6%",
@@ -7194,7 +7194,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 6.1% — termasuk 36% teratas di sektornya",
+        "ROE 6.1% — termasuk 37% teratas di sektornya",
         "Rev CAGR 3Y 28.6%",
         "MA: Uptrend Kuat",
         "MACD: Bearish Lemah"
@@ -7375,7 +7375,7 @@
       "sub_sector": "",
       "price": 460.0,
       "harga_lot": 46000,
-      "pe": 16.440315,
+      "pe": 17.037037,
       "pbv": 1.1596249,
       "roe": null,
       "der": 0.6548999999999999,
@@ -7403,7 +7403,7 @@
         "Dividen ±Rp 26/lembar setahun (yield 5.6%)",
         "Dividen 5 tahun berturut",
         "Rev CAGR 3Y 7.2%",
-        "PER 16.4x (median sektor 11.5x)",
+        "PER 17.0x (median sektor 11.5x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -7619,7 +7619,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Konfirmasi",
         "momentum": 36.1,
-        "mfi": 29.6,
+        "mfi": 29.7,
         "obv": "Netral"
       }
     },
@@ -8957,7 +8957,7 @@
       "sub_sector": "",
       "price": 127.0,
       "harga_lot": 12700,
-      "pe": 10.753598,
+      "pe": 11.005199,
       "pbv": 2.2294781,
       "roe": 22.142999999999997,
       "der": 0.57949,
@@ -8986,7 +8986,7 @@
         "Dividen ±Rp 4/lembar setahun (yield 3.1%)",
         "Dividen 7 tahun berturut",
         "Rev CAGR 3Y -3.8%",
-        "PER 10.8x (median sektor 7.4x)",
+        "PER 11.0x (median sektor 7.4x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -9439,7 +9439,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 7.9% — termasuk 30% teratas di sektornya",
+        "ROE 7.9% — termasuk 29% teratas di sektornya",
         "Dividen ±Rp 13/lembar setahun (yield 1.7%)",
         "Dividen 2 tahun berturut",
         "Rev CAGR 3Y 37.3%",
@@ -10135,7 +10135,7 @@
       "sub_sector": "",
       "price": 422.0,
       "harga_lot": 42200,
-      "pe": 23.990904,
+      "pe": 23.549107,
       "pbv": 4.0434237,
       "roe": 18.941,
       "der": 18.78,
@@ -10166,7 +10166,7 @@
         "Dividen ±Rp 2/lembar setahun (yield 0.6%)",
         "Dividen 6 tahun berturut",
         "Rev CAGR 3Y 19.1%",
-        "PER 24.0x (median sektor 9.5x)",
+        "PER 23.5x (median sektor 9.5x)",
         "MA: Di Atas MA50",
         "MACD: Bullish Cross",
         "DER tinggi 18.8x: -8"
@@ -11202,7 +11202,7 @@
       "sub_sector": "",
       "price": 1920.0,
       "harga_lot": 192000,
-      "pe": 20.539152,
+      "pe": 20.168068,
       "pbv": 2.425492,
       "roe": 13.108,
       "der": 0.23241,
@@ -11230,7 +11230,7 @@
         "ROE 13.1%",
         "Dividen 4 tahun berturut",
         "Rev CAGR 3Y 10.5%",
-        "PER 20.5x (median sektor 14.9x)",
+        "PER 20.2x (median sektor 14.9x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -11459,7 +11459,7 @@
       "sub_sector": "",
       "price": 126.0,
       "harga_lot": 12600,
-      "pe": 9.35412,
+      "pe": 9.581749,
       "pbv": 0.5443987,
       "roe": 5.864,
       "der": null,
@@ -11765,56 +11765,6 @@
       }
     },
     {
-      "ticker": "ALDO.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 1275.0,
-      "harga_lot": 127500,
-      "pe": 38.230885,
-      "pbv": 3.0995803,
-      "roe": 8.4630005,
-      "der": 0.57506,
-      "net_profit_margin": 3.8960000000000004,
-      "market_cap": 3436435210240.0,
-      "yield_ttm": 0.0392156862745098,
-      "div_streak": 9,
-      "div_amount_ttm": 0.5,
-      "revenue_cagr_3y": 14.767714197130633,
-      "earnings_cagr_3y": -18.680072176142392,
-      "skor_total": 54,
-      "skor_raw": 37,
-      "label": "JUAL",
-      "sub_label": "JUAL — skor rendah",
-      "komponen": {
-        "A_kualitas": 19,
-        "B_dividen": 9,
-        "C_growth": 5,
-        "D_valuasi": 0,
-        "E_teknikal": 4
-      },
-      "penalti_total": 0,
-      "penalti_detail": [],
-      "alasan": [
-        "ROE 8.5% — termasuk 28% teratas di sektornya",
-        "Dividen ±Rp 0/lembar setahun (yield 0.0%)",
-        "Dividen 9 tahun berturut",
-        "Rev CAGR 3Y 14.8%",
-        "MA: Uptrend Kuat",
-        "MACD: Bullish"
-      ],
-      "data_completeness": 0.882,
-      "teknikal": {
-        "rsi": 76.5,
-        "macd": "Bullish",
-        "ma": "Uptrend Kuat",
-        "vol_trend": "Konfirmasi",
-        "momentum": 79.6,
-        "mfi": 97.4,
-        "obv": "Confirm Up"
-      }
-    },
-    {
       "ticker": "BPII.JK",
       "name": "",
       "sector": "Unknown",
@@ -11999,7 +11949,7 @@
         "PER extreme (126.7x): -5"
       ],
       "alasan": [
-        "ROE 7.3% — termasuk 33% teratas di sektornya",
+        "ROE 7.3% — termasuk 32% teratas di sektornya",
         "Dividen 1 tahun berturut",
         "Rev CAGR 3Y 14.2%",
         "MA: Uptrend Kuat",
@@ -13373,7 +13323,7 @@
       "sub_sector": "",
       "price": 196.0,
       "harga_lot": 19600,
-      "pe": 11.238532,
+      "pe": 11.29683,
       "pbv": 0.26723713,
       "roe": 2.3699999,
       "der": 0.86937,
@@ -13402,7 +13352,7 @@
         "Dividen ±Rp 6/lembar setahun (yield 3.1%)",
         "Dividen 1 tahun berturut",
         "Rev CAGR 3Y 6.3%",
-        "PER 11.2x (median sektor 10.8x)",
+        "PER 11.3x (median sektor 10.8x)",
         "MA: Downtrend",
         "MACD: Bearish"
       ],
@@ -13636,9 +13586,9 @@
       "harga_lot": 70000,
       "pe": 7.8554597,
       "pbv": 0.60120934,
-      "roe": 5.9499998,
+      "roe": 7.126,
       "der": null,
-      "net_profit_margin": 11.756,
+      "net_profit_margin": 12.127,
       "market_cap": 2100000063488.0,
       "yield_ttm": 3.7142857142857144,
       "div_streak": 16,
@@ -13661,7 +13611,7 @@
         "Revenue turun: -5"
       ],
       "alasan": [
-        "ROE 5.9% — termasuk 37% teratas di sektornya",
+        "ROE 7.1% — termasuk 33% teratas di sektornya",
         "Dividen ±Rp 26/lembar setahun (yield 3.7%)",
         "Dividen 16 tahun berturut",
         "Rev CAGR 3Y -11.1%",
@@ -14197,6 +14147,54 @@
       }
     },
     {
+      "ticker": "ALDO.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": 1275.0,
+      "harga_lot": 127500,
+      "pe": 38.230885,
+      "pbv": 3.0995803,
+      "roe": 8.4630005,
+      "der": 0.57506,
+      "net_profit_margin": 3.8960000000000004,
+      "market_cap": 3436435210240.0,
+      "yield_ttm": 0.0392156862745098,
+      "div_streak": 9,
+      "div_amount_ttm": 0.5,
+      "revenue_cagr_3y": 14.767714197130633,
+      "earnings_cagr_3y": -18.680072176142392,
+      "skor_total": 49,
+      "skor_raw": 33,
+      "label": "JUAL",
+      "sub_label": "JUAL — skor rendah",
+      "komponen": {
+        "A_kualitas": 19,
+        "B_dividen": 9,
+        "C_growth": 5,
+        "D_valuasi": 0,
+        "E_teknikal": 0
+      },
+      "penalti_total": 0,
+      "penalti_detail": [],
+      "alasan": [
+        "ROE 8.5% — termasuk 28% teratas di sektornya",
+        "Dividen ±Rp 0/lembar setahun (yield 0.0%)",
+        "Dividen 9 tahun berturut",
+        "Rev CAGR 3Y 14.8%"
+      ],
+      "data_completeness": 0.824,
+      "teknikal": {
+        "rsi": null,
+        "macd": null,
+        "ma": null,
+        "vol_trend": null,
+        "momentum": null,
+        "mfi": null,
+        "obv": null
+      }
+    },
+    {
       "ticker": "ENRG.JK",
       "name": "",
       "sector": "Energy",
@@ -14496,60 +14494,6 @@
         "vol_trend": "Normal",
         "momentum": -14.6,
         "mfi": 8.3,
-        "obv": "Confirm Down"
-      }
-    },
-    {
-      "ticker": "ABMM.JK",
-      "name": "",
-      "sector": "Energy",
-      "sub_sector": "",
-      "price": 2730.0,
-      "harga_lot": 273000,
-      "pe": 5.2970624,
-      "pbv": null,
-      "roe": 9.491,
-      "der": 1.03092,
-      "net_profit_margin": 7.928,
-      "market_cap": 7516140863488.0,
-      "yield_ttm": 3.553113553113553,
-      "div_streak": 5,
-      "div_amount_ttm": 97.0,
-      "revenue_cagr_3y": -10.446873237884313,
-      "earnings_cagr_3y": -36.041922290812934,
-      "skor_total": 48,
-      "skor_raw": 32,
-      "label": "JUAL",
-      "sub_label": "JUAL — skor rendah",
-      "komponen": {
-        "A_kualitas": 13,
-        "B_dividen": 10,
-        "C_growth": 4,
-        "D_valuasi": 8,
-        "E_teknikal": 2
-      },
-      "penalti_total": -5,
-      "penalti_detail": [
-        "Revenue turun: -5"
-      ],
-      "alasan": [
-        "ROE 9.5%",
-        "Dividen ±Rp 97/lembar setahun (yield 3.6%)",
-        "Dividen 5 tahun berturut",
-        "Rev CAGR 3Y -10.4%",
-        "PER 5.3x (median sektor 10.8x)",
-        "MA: Uptrend Kuat",
-        "MACD: Bearish",
-        "Revenue turun: -5"
-      ],
-      "data_completeness": 0.882,
-      "teknikal": {
-        "rsi": 53.7,
-        "macd": "Bearish",
-        "ma": "Uptrend Kuat",
-        "vol_trend": "Normal",
-        "momentum": 19.7,
-        "mfi": 26.8,
         "obv": "Confirm Down"
       }
     },
@@ -15682,6 +15626,60 @@
       }
     },
     {
+      "ticker": "ABMM.JK",
+      "name": "",
+      "sector": "Energy",
+      "sub_sector": "",
+      "price": 2730.0,
+      "harga_lot": 273000,
+      "pe": 5.418387,
+      "pbv": null,
+      "roe": 9.491,
+      "der": 1.03092,
+      "net_profit_margin": 7.928,
+      "market_cap": 7516140863488.0,
+      "yield_ttm": 3.553113553113553,
+      "div_streak": 5,
+      "div_amount_ttm": 97.0,
+      "revenue_cagr_3y": -10.446873237884313,
+      "earnings_cagr_3y": -36.041922290812934,
+      "skor_total": 45,
+      "skor_raw": 30,
+      "label": "JUAL",
+      "sub_label": "JUAL — skor rendah",
+      "komponen": {
+        "A_kualitas": 13,
+        "B_dividen": 10,
+        "C_growth": 4,
+        "D_valuasi": 6,
+        "E_teknikal": 2
+      },
+      "penalti_total": -5,
+      "penalti_detail": [
+        "Revenue turun: -5"
+      ],
+      "alasan": [
+        "ROE 9.5%",
+        "Dividen ±Rp 97/lembar setahun (yield 3.6%)",
+        "Dividen 5 tahun berturut",
+        "Rev CAGR 3Y -10.4%",
+        "PER 5.4x (median sektor 10.8x)",
+        "MA: Uptrend Kuat",
+        "MACD: Bearish",
+        "Revenue turun: -5"
+      ],
+      "data_completeness": 0.882,
+      "teknikal": {
+        "rsi": 53.7,
+        "macd": "Bearish",
+        "ma": "Uptrend Kuat",
+        "vol_trend": "Normal",
+        "momentum": 19.7,
+        "mfi": 26.8,
+        "obv": "Confirm Down"
+      }
+    },
+    {
       "ticker": "AMFG.JK",
       "name": "",
       "sector": "Unknown",
@@ -15784,7 +15782,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -13.7,
-        "mfi": 36.4,
+        "mfi": 36.3,
         "obv": "Confirm Down"
       }
     },
@@ -16532,7 +16530,7 @@
         "PER extreme (81.7x): -5"
       ],
       "alasan": [
-        "ROE 9.4% — termasuk 26% teratas di sektornya",
+        "ROE 9.4% — termasuk 25% teratas di sektornya",
         "Dividen ±Rp 5/lembar setahun (yield 0.4%)",
         "Dividen 6 tahun berturut",
         "Rev CAGR 3Y 10.5%",
@@ -17117,7 +17115,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Normal",
         "momentum": 3.4,
-        "mfi": 73.2,
+        "mfi": 73.3,
         "obv": "Confirm Down"
       }
     },
@@ -17980,7 +17978,7 @@
       "penalti_total": 0,
       "penalti_detail": [],
       "alasan": [
-        "ROE 7.7% — termasuk 31% teratas di sektornya",
+        "ROE 7.7% — termasuk 30% teratas di sektornya",
         "Dividen 3 tahun berturut",
         "Rev CAGR 3Y 2.2%",
         "MA: Downtrend",
@@ -19084,7 +19082,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": -40.0,
-        "mfi": 4.5,
+        "mfi": 4.6,
         "obv": "Confirm Down"
       }
     },
@@ -21010,7 +21008,7 @@
       "sub_sector": "",
       "price": 680.0,
       "harga_lot": 68000,
-      "pe": 2.5309858,
+      "pe": 2.5687518,
       "pbv": 0.12474749,
       "roe": 5.0479997,
       "der": null,
@@ -21724,7 +21722,7 @@
         "ma": "Uptrend Kuat",
         "vol_trend": "Normal",
         "momentum": 15.1,
-        "mfi": 83.3,
+        "mfi": 83.1,
         "obv": "Confirm Up"
       }
     },
@@ -21841,7 +21839,7 @@
       "sub_sector": "",
       "price": 1260.0,
       "harga_lot": 126000,
-      "pe": 40.84279,
+      "pe": 41.777187,
       "pbv": null,
       "roe": 0.7969999999999999,
       "der": 7.322,
@@ -22145,7 +22143,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Normal",
         "momentum": 59.7,
-        "mfi": 58.6,
+        "mfi": 58.7,
         "obv": "Netral"
       }
     },
@@ -22196,7 +22194,7 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 44.9,
-        "mfi": 55.2,
+        "mfi": 55.3,
         "obv": "Confirm Up"
       }
     },
@@ -22466,7 +22464,7 @@
       "sub_sector": "",
       "price": 1610.0,
       "harga_lot": 161000,
-      "pe": 4.6106706,
+      "pe": 4.6397696,
       "pbv": 11.93397,
       "roe": 2.29176,
       "der": 8.28737,
@@ -22603,7 +22601,7 @@
         "Revenue turun: -5"
       ],
       "alasan": [
-        "ROE 9.6% — termasuk 25% teratas di sektornya",
+        "ROE 9.6% — termasuk 24% teratas di sektornya",
         "Dividen ±Rp 5/lembar setahun (yield 1.8%)",
         "Dividen 1 tahun berturut",
         "Rev CAGR 3Y -7.0%",
@@ -23796,7 +23794,7 @@
       "sub_sector": "",
       "price": 216.0,
       "harga_lot": 21600,
-      "pe": 33.17972,
+      "pe": 37.894737,
       "pbv": 1.2523336,
       "roe": 3.3520000000000003,
       "der": 19.858,
@@ -23889,7 +23887,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": 1.3,
-        "mfi": 16.9,
+        "mfi": 15.3,
         "obv": "Confirm Down"
       }
     },
@@ -25031,7 +25029,7 @@
         "Data rendah (59%): -15"
       ],
       "alasan": [
-        "ROE 10.1% — termasuk 24% teratas di sektornya",
+        "ROE 10.1% — termasuk 23% teratas di sektornya",
         "Dividen ±Rp 2/lembar setahun (yield 2.1%)",
         "Dividen 2 tahun berturut",
         "MA: Di Atas MA50",
@@ -25690,60 +25688,6 @@
       }
     },
     {
-      "ticker": "CSIS.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 189.0,
-      "harga_lot": 18900,
-      "pe": 27.320034,
-      "pbv": 0.8822417,
-      "roe": 11.611,
-      "der": 6.865,
-      "net_profit_margin": 21.077,
-      "market_cap": 345832980480.0,
-      "yield_ttm": 1.5873015873015872,
-      "div_streak": 1,
-      "div_amount_ttm": 3.0,
-      "revenue_cagr_3y": null,
-      "earnings_cagr_3y": null,
-      "skor_total": 15,
-      "skor_raw": 10,
-      "label": "JUAL",
-      "sub_label": "JUAL — fundamental buruk",
-      "komponen": {
-        "A_kualitas": 24,
-        "B_dividen": 3,
-        "C_growth": 0,
-        "D_valuasi": 0,
-        "E_teknikal": 1
-      },
-      "penalti_total": -18,
-      "penalti_detail": [
-        "Rugi berturut-turut: -10",
-        "DER tinggi 6.9x: -8"
-      ],
-      "alasan": [
-        "ROE 11.6% — termasuk 21% teratas di sektornya",
-        "Dividen ±Rp 3/lembar setahun (yield 1.6%)",
-        "Dividen 1 tahun berturut",
-        "MA: Downtrend",
-        "MACD: Bearish",
-        "Rugi berturut-turut: -10",
-        "DER tinggi 6.9x: -8"
-      ],
-      "data_completeness": 0.706,
-      "teknikal": {
-        "rsi": 45.7,
-        "macd": "Bearish",
-        "ma": "Downtrend",
-        "vol_trend": "Normal",
-        "momentum": 21.9,
-        "mfi": 65.4,
-        "obv": "Netral"
-      }
-    },
-    {
       "ticker": "ENZO.JK",
       "name": "",
       "sector": "Unknown",
@@ -25898,57 +25842,6 @@
         "vol_trend": "Normal",
         "momentum": 2.7,
         "mfi": 63.2,
-        "obv": "Netral"
-      }
-    },
-    {
-      "ticker": "BOGA.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 1560.0,
-      "harga_lot": 156000,
-      "pe": null,
-      "pbv": 12.861206,
-      "roe": 0.91699995,
-      "der": 0.59342,
-      "net_profit_margin": 1.274,
-      "market_cap": 5933500989440.0,
-      "yield_ttm": 0.0,
-      "div_streak": 0,
-      "div_amount_ttm": 0.0,
-      "revenue_cagr_3y": -21.011635253487306,
-      "earnings_cagr_3y": -45.31321510176735,
-      "skor_total": 14,
-      "skor_raw": 9,
-      "label": "JUAL",
-      "sub_label": "JUAL — banyak red flag",
-      "komponen": {
-        "A_kualitas": 13,
-        "B_dividen": 0,
-        "C_growth": 0,
-        "D_valuasi": 0,
-        "E_teknikal": 1
-      },
-      "penalti_total": -5,
-      "penalti_detail": [
-        "Revenue turun: -5"
-      ],
-      "alasan": [
-        "ROE 0.9%",
-        "Rev CAGR 3Y -21.0%",
-        "MA: Di Atas MA200",
-        "MACD: Bullish Lemah",
-        "Revenue turun: -5"
-      ],
-      "data_completeness": 0.824,
-      "teknikal": {
-        "rsi": 47.4,
-        "macd": "Bullish Lemah",
-        "ma": "Di Atas MA200",
-        "vol_trend": "Normal",
-        "momentum": 4.0,
-        "mfi": 44.4,
         "obv": "Netral"
       }
     },
@@ -26721,7 +26614,7 @@
         "DER tinggi 8.6x: -8"
       ],
       "alasan": [
-        "ROE 10.8% — termasuk 23% teratas di sektornya",
+        "ROE 10.8% — termasuk 22% teratas di sektornya",
         "MA: Uptrend Kuat",
         "MACD: Bearish Lemah",
         "Rugi berturut-turut: -10",
@@ -26880,7 +26773,7 @@
         "DER tinggi 16.9x: -8"
       ],
       "alasan": [
-        "ROE 7.5% — termasuk 32% teratas di sektornya",
+        "ROE 7.5% — termasuk 31% teratas di sektornya",
         "Dividen ±Rp 0/lembar setahun (yield 0.4%)",
         "Dividen 4 tahun berturut",
         "MA: Downtrend",
@@ -26999,6 +26892,60 @@
         "vol_trend": "Tidak Likuid",
         "momentum": 0.0,
         "mfi": null,
+        "obv": "Netral"
+      }
+    },
+    {
+      "ticker": "CSIS.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": 189.0,
+      "harga_lot": 18900,
+      "pe": 27.320034,
+      "pbv": 0.8822417,
+      "roe": 6.343,
+      "der": 12.799,
+      "net_profit_margin": 14.878,
+      "market_cap": 345832980480.0,
+      "yield_ttm": 1.5873015873015872,
+      "div_streak": 1,
+      "div_amount_ttm": 3.0,
+      "revenue_cagr_3y": null,
+      "earnings_cagr_3y": null,
+      "skor_total": 9,
+      "skor_raw": 6,
+      "label": "JUAL",
+      "sub_label": "JUAL — fundamental buruk",
+      "komponen": {
+        "A_kualitas": 20,
+        "B_dividen": 3,
+        "C_growth": 0,
+        "D_valuasi": 0,
+        "E_teknikal": 1
+      },
+      "penalti_total": -18,
+      "penalti_detail": [
+        "Rugi berturut-turut: -10",
+        "DER tinggi 12.8x: -8"
+      ],
+      "alasan": [
+        "ROE 6.3% — termasuk 36% teratas di sektornya",
+        "Dividen ±Rp 3/lembar setahun (yield 1.6%)",
+        "Dividen 1 tahun berturut",
+        "MA: Downtrend",
+        "MACD: Bearish",
+        "Rugi berturut-turut: -10",
+        "DER tinggi 12.8x: -8"
+      ],
+      "data_completeness": 0.706,
+      "teknikal": {
+        "rsi": 45.7,
+        "macd": "Bearish",
+        "ma": "Downtrend",
+        "vol_trend": "Normal",
+        "momentum": 21.9,
+        "mfi": 65.5,
         "obv": "Netral"
       }
     },
@@ -27632,6 +27579,60 @@
         "momentum": 7.5,
         "mfi": 62.4,
         "obv": "Bullish Div"
+      }
+    },
+    {
+      "ticker": "GTSI.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": 138.0,
+      "harga_lot": 13800,
+      "pe": null,
+      "pbv": null,
+      "roe": -6.0489996999999995,
+      "der": 0.78307,
+      "net_profit_margin": -11.024999600000001,
+      "market_cap": 2183041777664.0,
+      "yield_ttm": 0.7246376811594203,
+      "div_streak": 2,
+      "div_amount_ttm": 1.0,
+      "revenue_cagr_3y": -5.581859444950233,
+      "earnings_cagr_3y": -12.95873813634767,
+      "skor_total": 6,
+      "skor_raw": 4,
+      "label": "JUAL",
+      "sub_label": "JUAL — fundamental buruk",
+      "komponen": {
+        "A_kualitas": 11,
+        "B_dividen": 3,
+        "C_growth": 4,
+        "D_valuasi": 0,
+        "E_teknikal": 1
+      },
+      "penalti_total": -15,
+      "penalti_detail": [
+        "ROE negatif (-6.0%): -10",
+        "Revenue turun: -5"
+      ],
+      "alasan": [
+        "Dividen ±Rp 1/lembar setahun (yield 0.7%)",
+        "Dividen 2 tahun berturut",
+        "Rev CAGR 3Y -5.6%",
+        "MA: Downtrend",
+        "MACD: Bearish",
+        "ROE negatif (-6.0%): -10",
+        "Revenue turun: -5"
+      ],
+      "data_completeness": 0.765,
+      "teknikal": {
+        "rsi": 40.2,
+        "macd": "Bearish",
+        "ma": "Downtrend",
+        "vol_trend": "Normal",
+        "momentum": 11.3,
+        "mfi": 50.0,
+        "obv": "Netral"
       }
     },
     {
@@ -29252,60 +29253,6 @@
       }
     },
     {
-      "ticker": "GTSI.JK",
-      "name": "",
-      "sector": "Unknown",
-      "sub_sector": "",
-      "price": 138.0,
-      "harga_lot": 13800,
-      "pe": null,
-      "pbv": null,
-      "roe": -6.0489996999999995,
-      "der": 0.78307,
-      "net_profit_margin": -11.024999600000001,
-      "market_cap": 2183041777664.0,
-      "yield_ttm": 0.7246376811594203,
-      "div_streak": 2,
-      "div_amount_ttm": 1.0,
-      "revenue_cagr_3y": -5.581859444950233,
-      "earnings_cagr_3y": -12.95873813634767,
-      "skor_total": 2,
-      "skor_raw": 1,
-      "label": "JUAL",
-      "sub_label": "JUAL — fundamental buruk",
-      "komponen": {
-        "A_kualitas": 8,
-        "B_dividen": 3,
-        "C_growth": 4,
-        "D_valuasi": 0,
-        "E_teknikal": 1
-      },
-      "penalti_total": -15,
-      "penalti_detail": [
-        "ROE negatif (-6.0%): -10",
-        "Revenue turun: -5"
-      ],
-      "alasan": [
-        "Dividen ±Rp 1/lembar setahun (yield 0.7%)",
-        "Dividen 2 tahun berturut",
-        "Rev CAGR 3Y -5.6%",
-        "MA: Downtrend",
-        "MACD: Bearish",
-        "ROE negatif (-6.0%): -10",
-        "Revenue turun: -5"
-      ],
-      "data_completeness": 0.765,
-      "teknikal": {
-        "rsi": 40.2,
-        "macd": "Bearish",
-        "ma": "Downtrend",
-        "vol_trend": "Normal",
-        "momentum": 11.3,
-        "mfi": 50.0,
-        "obv": "Netral"
-      }
-    },
-    {
       "ticker": "IDEA.JK",
       "name": "",
       "sector": "Unknown",
@@ -29514,7 +29461,7 @@
         "ma": "Downtrend",
         "vol_trend": "Distribusi",
         "momentum": 14.5,
-        "mfi": 44.1,
+        "mfi": 43.0,
         "obv": "Netral"
       }
     },
@@ -32219,8 +32166,60 @@
         "ma": "Di Atas MA50",
         "vol_trend": "Akumulasi",
         "momentum": 3.2,
-        "mfi": 63.5,
+        "mfi": 63.7,
         "obv": "Confirm Up"
+      }
+    },
+    {
+      "ticker": "BOGA.JK",
+      "name": "",
+      "sector": "Unknown",
+      "sub_sector": "",
+      "price": 1560.0,
+      "harga_lot": 156000,
+      "pe": null,
+      "pbv": 12.79087,
+      "roe": -0.269,
+      "der": 0.52715,
+      "net_profit_margin": -0.40700003,
+      "market_cap": 5933500989440.0,
+      "yield_ttm": 0.0,
+      "div_streak": 0,
+      "div_amount_ttm": 0.0,
+      "revenue_cagr_3y": -21.011635253487306,
+      "earnings_cagr_3y": -45.31321510176735,
+      "skor_total": 0,
+      "skor_raw": 0,
+      "label": "JUAL",
+      "sub_label": "JUAL — fundamental buruk",
+      "komponen": {
+        "A_kualitas": 11,
+        "B_dividen": 0,
+        "C_growth": 0,
+        "D_valuasi": 0,
+        "E_teknikal": 1
+      },
+      "penalti_total": -15,
+      "penalti_detail": [
+        "ROE negatif (-0.3%): -10",
+        "Revenue turun: -5"
+      ],
+      "alasan": [
+        "Rev CAGR 3Y -21.0%",
+        "MA: Di Atas MA200",
+        "MACD: Bullish Lemah",
+        "ROE negatif (-0.3%): -10",
+        "Revenue turun: -5"
+      ],
+      "data_completeness": 0.824,
+      "teknikal": {
+        "rsi": 47.4,
+        "macd": "Bullish Lemah",
+        "ma": "Di Atas MA200",
+        "vol_trend": "Normal",
+        "momentum": 4.0,
+        "mfi": 44.4,
+        "obv": "Netral"
       }
     },
     {
@@ -35481,7 +35480,7 @@
       "pbv": null,
       "roe": null,
       "der": 53.99223,
-      "net_profit_margin": -8.645999999999999,
+      "net_profit_margin": -8.525,
       "market_cap": 17757871538176.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -37613,7 +37612,7 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 8,
+        "A_kualitas": 11,
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
@@ -40309,9 +40308,9 @@
       "harga_lot": 13800,
       "pe": null,
       "pbv": 5.894161,
-      "roe": 0.26,
-      "der": 1.7968000000000002,
-      "net_profit_margin": 0.44799999999999995,
+      "roe": -7.219,
+      "der": 1.63364,
+      "net_profit_margin": -11.788999,
       "market_cap": 5411744251904.0,
       "yield_ttm": 0.0,
       "div_streak": 5,
@@ -40323,23 +40322,24 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 7,
+        "A_kualitas": 2,
         "B_dividen": 6,
         "C_growth": 0,
         "D_valuasi": 0,
         "E_teknikal": 1
       },
-      "penalti_total": -15,
+      "penalti_total": -25,
       "penalti_detail": [
+        "ROE negatif (-7.2%): -10",
         "Rugi berturut-turut: -10",
         "Revenue turun: -5"
       ],
       "alasan": [
-        "ROE 0.3%",
         "Dividen 5 tahun berturut",
         "Rev CAGR 3Y -21.8%",
         "MA: Di Atas MA200",
         "MACD: Bearish",
+        "ROE negatif (-7.2%): -10",
         "Rugi berturut-turut: -10",
         "Revenue turun: -5"
       ],
@@ -40605,7 +40605,7 @@
         "Data rendah (59%): -15"
       ],
       "alasan": [
-        "ROE 11.2% — termasuk 22% teratas di sektornya",
+        "ROE 11.2% — termasuk 21% teratas di sektornya",
         "MA: Downtrend",
         "MACD: Bearish",
         "Rugi berturut-turut: -10",
@@ -46339,9 +46339,9 @@
       "harga_lot": 31600,
       "pe": null,
       "pbv": 7.0906067,
-      "roe": -3.3709999999999996,
-      "der": 0.45738,
-      "net_profit_margin": -1.702,
+      "roe": -6.334,
+      "der": 0.46261,
+      "net_profit_margin": -3.193,
       "market_cap": 735696388096.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -46353,7 +46353,7 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 15,
+        "A_kualitas": 12,
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
@@ -46361,14 +46361,14 @@
       },
       "penalti_total": -35,
       "penalti_detail": [
-        "ROE negatif (-3.4%): -10",
+        "ROE negatif (-6.3%): -10",
         "Rugi berturut-turut: -10",
         "Data rendah (59%): -15"
       ],
       "alasan": [
         "MA: Uptrend Kuat",
         "MACD: Bullish",
-        "ROE negatif (-3.4%): -10",
+        "ROE negatif (-6.3%): -10",
         "Rugi berturut-turut: -10",
         "Data rendah (59%): -15"
       ],
@@ -48449,8 +48449,8 @@
       "pe": null,
       "pbv": 2.2889843,
       "roe": -16.271,
-      "der": 1.3537299999999999,
-      "net_profit_margin": -40.636002999999995,
+      "der": 1.67184,
+      "net_profit_margin": -40.637,
       "market_cap": 484550901760.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
@@ -48462,7 +48462,7 @@
       "label": "JUAL",
       "sub_label": "JUAL — fundamental buruk",
       "komponen": {
-        "A_kualitas": 9,
+        "A_kualitas": 7,
         "B_dividen": 0,
         "C_growth": 0,
         "D_valuasi": 0,
@@ -49087,7 +49087,7 @@
       "roe": 0.202,
       "der": 15.706,
       "net_profit_margin": -1.133,
-      "market_cap": 29312499580928.0,
+      "market_cap": 36375306960896.0,
       "yield_ttm": 0.0,
       "div_streak": 0,
       "div_amount_ttm": 0.0,
@@ -49566,7 +49566,7 @@
       "sub_sector": "",
       "price": 27.0,
       "harga_lot": 2700,
-      "pe": 18.75,
+      "pe": 19.424461,
       "pbv": 2.035892,
       "roe": 3.1510000000000002,
       "der": 2.65447,
