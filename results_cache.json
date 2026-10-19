@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:58:15.793150",
+  "generated_at": "2026-10-19T20:13:04.428763",
   "total": 957,
   "data": [
     {
@@ -1167,7 +1167,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -8.8,
-        "mfi": 37.6,
+        "mfi": 36.2,
         "obv": "Confirm Down"
       }
     },
@@ -1884,7 +1884,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -16.9,
-        "mfi": 33.3,
+        "mfi": 33.4,
         "obv": "Confirm Down"
       }
     },
@@ -2970,7 +2970,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -19.0,
-        "mfi": 18.4,
+        "mfi": 18.3,
         "obv": "Confirm Down"
       }
     },
@@ -4142,7 +4142,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Normal",
         "momentum": 13.1,
-        "mfi": 31.0,
+        "mfi": 30.9,
         "obv": "Netral"
       }
     },
@@ -5475,7 +5475,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Akumulasi",
         "momentum": 23.4,
-        "mfi": 64.7,
+        "mfi": 64.9,
         "obv": "Bearish Div"
       }
     },
@@ -5524,7 +5524,7 @@
         "ma": "Di Atas MA200",
         "vol_trend": "Akumulasi",
         "momentum": -2.2,
-        "mfi": 12.6,
+        "mfi": 12.5,
         "obv": "Bearish Div"
       }
     },
@@ -7928,7 +7928,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -29.8,
-        "mfi": 14.7,
+        "mfi": 14.5,
         "obv": "Confirm Down"
       }
     },
@@ -19708,7 +19708,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -4.2,
-        "mfi": 59.6,
+        "mfi": 59.7,
         "obv": "Bullish Div"
       }
     },
@@ -31021,7 +31021,7 @@
         "ma": "Downtrend",
         "vol_trend": "Normal",
         "momentum": -61.3,
-        "mfi": 81.4,
+        "mfi": 81.2,
         "obv": "Netral"
       }
     },
